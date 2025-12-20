@@ -1018,3 +1018,14 @@ SWEP.Attachments = {
 SWEP.NoAimAssist = true
 SWEP.NoAimAssistLock = false
 SWEP.CantPeek = true
+
+SWEP.Hook_BulletImpact = function(wep, data)
+    local ent = data.tr.Entity
+    if IsValid(ent) and ent.LVS then
+        data.dmg:SetDamageType(DMG_AIRBOAT)
+        data.dmg:SetDamageForce(data.tr.Normal * 2500)
+    elseif IsValid(ent) and ent:GetClass() == "npc_helicopter" then
+        data.dmg:SetDamageType(DMG_AIRBOAT)
+        data.dmgv = data.dmgv * 0.25
+    end
+end
