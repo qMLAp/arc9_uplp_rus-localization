@@ -564,6 +564,8 @@ ATT.Icon = Material(iconfolder .. "10.png", "mips smooth")
 ATT.Model = "models/weapons/arc9/uplp/g36_mag_10_refract.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/uplp/g36_mag_10.mdl"
 ATT.TranslucentPass = true
+ATT.TranslucentPassExtraMat = Material( "models/weapons/arc9/uplp/lowpoly_metal" )
+ATT.TranslucentPassBlend = 0.5
 ATT.BoneMerge = true
 
 -- Positives
@@ -607,6 +609,8 @@ ATT.Icon = Material(iconfolder .. "30tr.png", "mips smooth")
 ATT.Model = "models/weapons/arc9/uplp/g36_mag_30_refract.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/uplp/g36_mag_30.mdl"
 ATT.TranslucentPass = true
+ATT.TranslucentPassExtraMat = Material( "models/weapons/arc9/uplp/lowpoly_metal" )
+ATT.TranslucentPassBlend = 0.5
 ATT.BoneMerge = true
 
 ATT.Category = "uplp_g36_mag"

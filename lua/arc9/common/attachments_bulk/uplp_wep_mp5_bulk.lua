@@ -405,6 +405,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/uplp/mp5_mag_30_10mm.mdl"
 
 ATT.Model = "models/weapons/arc9/uplp/mp5_mag_30_10mm_refract.mdl"
 ATT.TranslucentPass = true
+ATT.TranslucentPassExtraMat = Material( "models/weapons/arc9/uplp/lowpoly_metal" )
+ATT.TranslucentPassBlend = 0.5
 ATT.BoneMerge = true
 
 ATT.Hook_TranslateAnimation = function(wep, anim)

@@ -102,6 +102,8 @@ ATT.MenuCategory = "ARC9 - Poly Arms Attachments"
 
 ATT.Model = "models/weapons/arc9/uplp/ar57_mag_refract.mdl"
 ATT.TranslucentPass = true
+ATT.TranslucentPassExtraMat = Material( "models/weapons/arc9/uplp/lowpoly_metal" )
+ATT.TranslucentPassBlend = 0.5
 ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "uplp_ar57_mag_internal")
