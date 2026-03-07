@@ -884,7 +884,7 @@ L["uplp_ak_mag_762_30_poly.description"] = "30-зарядный SPMAG произ
 
 L["uplp_ak_mag_762_30_pmagb.printname"] = "30-зарядный 7.62×39мм (бананом)"
 L["uplp_ak_mag_762_30_pmagb.compactname"] ="30R 7.62 (Бан.)"
--- L["uplp_ak_mag_762_30_pmagb.description"] = "30-round magazine painted to look like a banana. Comes with a <color=100,255,100>free sticker</color>!" .. loaded762
+L["uplp_ak_mag_762_30_pmagb.description"] = "30‑патронный магазин, окрашенный в виде банана. В комплекте <color=100,255,100>бесплатная наклейка</color>!" .. loaded762
 
 L["uplp_ak_mag_762_40.printname"] = "40-зарядный 7.62×39мм (Бакелит)"
 L["uplp_ak_mag_762_40.compactname"] = "40R 7.62 (Б)"
@@ -1155,7 +1155,7 @@ L["uplp_ar15_chandle_tacblack.description"] = "Спортивная тактич
 
 L["uplp_ar15_chandle_sr25.printname"] = "Рукоятка затвора DMR-10"
 L["uplp_ar15_chandle_sr25.compactname"] = "DMR-10"
--- L["uplp_ar15_chandle_sr25.description"] = "Sturdy charging handle used on the DMR-10."
+L["uplp_ar15_chandle_sr25.description"] = "Прочная рукоятка для зарядки, используемая на DMR-10."
 
 ////// Front Sights
 L["uplp_ar15_fs_mbus.printname"] = "Откидная мушка PAWCO"
@@ -2972,559 +2972,556 @@ L["uplp_pkm_handguard.printname"] = "Тактическое цевьё"
 L["uplp_pkm_handguard.compactname"] = "Такт. Цевьё"  
 L["uplp_pkm_handguard.description"] = "Тактическое цевьё с нижними и боковыми рейками.\n<color=150,150,255>Только косметика</color>."  
 
-//////////////////// A.H. Fox Sterlingworth Philly
--- L["uplp_weapon_dbs"] = "Authority SBS"
+////////////////// A.H. Fox Sterlingworth Philly
+L["uplp_weapon_dbs"] = "Authority SBS"
 
--- L["uplp_weapon_dbs_desc"] = "Anaconda Industrial Tooling constructed their final sporting shotgun for the civilian market in 1910. The Authority SBS (Side-by-Side) double-barrel shotgun offers quick double-tap firepower with a proven double-barrel design."
+L["uplp_weapon_dbs_desc"] = "Компания Anaconda Industrial Tooling создала своё последнее спортивное ружьё для гражданского рынка в 1910 году. Дробовик Authority SBS (с вертикально расположенными стволами) с двойным стволом обеспечивает быструю стрельбу двумя патронами благодаря проверенной конструкции с двумя стволами."
 
--- L["uplp_weapon_dbs_short"] = "Outlaw SBS"
+L["uplp_weapon_dbs_short"] = "Authority SBS"
 
--- L["uplp_weapon_dbs_real"] = "A.H. Fox Sterlingworth Philly"
+L["uplp_weapon_dbs_real"] = "A.H. Fox Sterlingworth Philly"
 
--- L["uplp_weapon_dbs_manufacturer"] = "A.H. Fox"
+L["uplp_weapon_dbs_manufacturer"] = "A.H. Fox"
 
-/////////// Attachments
-////// Barrels
--- L["uplp_dbs_brl_long.printname"] = "Full-Length Barrel"
--- L["uplp_dbs_brl_long.compactname"] = "Full"
--- L["uplp_dbs_brl_long.description"] = "Factory-made full-length barrel for the Authority SBS."
+//////////// Обвесы
+////// Стволы
+L["uplp_dbs_brl_long.printname"] = "Ствол полной длины"
+L["uplp_dbs_brl_long.compactname"] = "Полный"
+L["uplp_dbs_brl_long.description"] = "Заводской ствол полной длины для дробовика SBS."
 
--- L["uplp_dbs_brl_short.printname"] = "Sawed-off Outlaw Barrel"
--- L["uplp_dbs_brl_short.compactname"] = "Outlaw"
--- L["uplp_dbs_brl_short.description"] = "Factory-made shortened barrel for the less-known Outlaw SBS."
+L["uplp_dbs_brl_short.printname"] = "Обрезанный бандитский ствол"
+L["uplp_dbs_brl_short.compactname"] = "Бандитский"
+L["uplp_dbs_brl_short.description"] = "Заводской укороченный ствол для менее известного Outlaw SBS."
 
-////// Handguard
--- L["uplp_dbs_hg_crude.printname"] = "Crude PAWCO Handguard"
--- L["uplp_dbs_hg_crude.compactname"] = "PAWCO"
--- L["uplp_dbs_hg_crude.description"] = "Crudely attaches a <color=100,100,255>cosmetic only</color> PAWCO handguard originally developed for the Wingmaster 12G.\n\n<color=255,255,50>Note</color>: Does not turn your double-barrel shotgun into a pump-action shotgun."
+////// Цевьё
+L["uplp_dbs_hg_crude.printname"] = "Грубое цевьё PAWCO"
+L["uplp_dbs_hg_crude.compactname"] = "PAWCO"
+L["uplp_dbs_hg_crude.description"] = "Цевье PAWCO, разработанное специально для Wingmaster 12G, <color=100,100,255>предназначено только для косметических целей</color>. \n\n<color=255,255,50>Примечание</color>: не превращает ваш двуствольный дробовик в помповый."
 
--- L["uplp_dbs_hg_poly.printname"] = "Полимерное цевьё"  
--- L["uplp_dbs_hg_poly.compactname"] = "Поли"  
--- L["uplp_dbs_hg_poly.description"] = "Современное полимерное цевьё для Authority SBS."  
+L["uplp_dbs_hg_poly.printname"] = "Полимерное цевьё"
+L["uplp_dbs_hg_poly.compactname"] = "Полимер"
+L["uplp_dbs_hg_poly.description"] = "Современное полимерное цевьё для SBS."
 
-////// Stocks
--- L["uplp_dbs_stock_short.printname"] = "Sawed-off Outlaw Stock"
--- L["uplp_dbs_stock_short.compactname"] = "Sawed"
--- L["uplp_dbs_stock_short.description"] = "Attaches the factory-made shortened stock from the lesser known Outlaw SBS."
+////// Приклады
+L["uplp_dbs_stock_short.printname"] = "Обрезанный бандитский приклад"
+L["uplp_dbs_stock_short.compactname"] = "Обрез"
+L["uplp_dbs_stock_short.description"] = "Прикрепляет заводской укороченный приклад от менее известного бандитского SBS."
 
--- L["uplp_dbs_stock_cursed.printname"] = "Apocalypse Prepped Stock"
--- L["uplp_dbs_stock_cursed.compactname"] = "Apocalypse"
--- L["uplp_dbs_stock_cursed.description"] = "Prepare for the apocalypse with this custom but crudely made stock for most old-school shotguns."
+L["uplp_dbs_stock_cursed.printname"] = "Приклад для апокалипсиса"
+L["uplp_dbs_stock_cursed.compactname"] = "Апокалипсис"
+L["uplp_dbs_stock_cursed.description"] = "Подготовьтесь к апокалипсису с этим самодельным, но грубо сделанным прикладом для большинства старомодных дробовиков."
 
--- L["uplp_dbs_stock_tactical.printname"] = "PAWCO Stock"
--- L["uplp_dbs_stock_tactical.compactname"] = "PAWCO"
--- L["uplp_dbs_stock_tactical.description"] = "Modern polymer stock adapted for the Authority SBS.\n\n<color=255,100,100>Warning</color>: PAWCO is not responsible if people see you using this and you get hurt as a consequence."
+L["uplp_dbs_stock_tactical.printname"] = "Приклад PAWCO"
+L["uplp_dbs_stock_tactical.compactname"] = "PAWCO"
+L["uplp_dbs_stock_tactical.description"] = "Современный полимерный приклад, адаптированный для SBS. \n\n<color=255,100,100>Предупреждение</color>: компания PAWCO не несёт ответственности, если люди увидят, что вы используете это, и вы получите травмы в результате."
 
--- L["uplp_dbs_stock_tactical_short.printname"] = "Sawed-off PAWCO Stock"
--- L["uplp_dbs_stock_tactical_short.compactname"] = "PAWCO S"
--- L["uplp_dbs_stock_tactical_short.description"] = "Sawed-off version of the modern polymer stock from PAWCO.\n\n<color=255,100,100>Warning</color>: PAWCO is not responsible if people see you using this and you get hurt as a consequence."
+L["uplp_dbs_stock_tactical_short.printname"] = "Обрезанный приклад PAWCO"
+L["uplp_dbs_stock_tactical_short.compactname"] = "Обр. PAWCO"
+L["uplp_dbs_stock_tactical_short.description"] = "Обрезанная версия современного полимерного приклада от PAWCO. \n\n<color=255,100,100>Предупреждение</color>: компания PAWCO не несёт ответственности, если люди увидят, что вы используете это, и вы получите травмы в результате."
 
-//////////////////// M134 Minigun
--- L["uplp_weapon_minigun"] = "O.A. Minigun"
+////// Патроны
+L["uplp_stat_ignite_chance"] = "При попадании: Шанс поджечь цель"
+L["uplp_stat_ignite"] = "При попадании: Поджечь цель"
 
--- L["uplp_weapon_minigun_desc"] = "Omega Arms were contracted by the U.S. military during the 60's to create a door-mounted machine gun. They delivered tenfold, creating the MG-RB (\"Machine Gun, Rotating Barrel\"), while also making more lightweight, man-portable variants of it with reduced rates of fire."
+////////////////// M134 Minigun
+L["uplp_weapon_minigun"] = "Миниган O.A."
 
--- L["uplp_weapon_minigun_real"] = "M134 Minigun"
+L["uplp_weapon_minigun_desc"] = "Компания Omega Arms по контракту с американскими военными в 60‑х годах создала пулемёт для установки на двери. Они превзошли ожидания, создав MG-RB (\"пулемёт с вращающимся стволом\"), а также более лёгкие переносные варианты с пониженной скорострельностью."
 
--- L["uplp_weapon_minigun_manufacturer"] = "General Electric"
+L["uplp_weapon_minigun_real"] = "M134 Minigun"
 
-//////////////////// Marlin Model 1895
--- L["uplp_weapon_marlin"] = "Model 94"
+L["uplp_weapon_minigun_manufacturer"] = "General Electric"
 
--- L["uplp_weapon_marlin_desc"] = "In 1894, Anaconda Industrial Tooling provided the world with its lever-action rifle, the Model 94, chambered in the powerful .45/70 cartridge, providing higher damage to the chest and head."
+////////////////// Marlin Model 1895
+L["uplp_weapon_marlin"] = "Model 94"
 
--- L["uplp_weapon_marlin_real"] = "Marlin Model 1895"
+L["uplp_weapon_marlin_desc"] = "В 1894 году компания Anaconda Industrial Tooling представила миру винтовку с рычажным механизмом, модель 94, под мощный патрон .45/70, обеспечивающую повышенный урон в грудь и голову."
 
--- L["uplp_weapon_marlin_manufacturer"] = "Marlin Firearms"
+L["uplp_weapon_marlin_real"] = "Marlin Model 1895"
 
-/////////// Attachments
-////// Barrels
--- L["uplp_marlin_brl_long.printname"] = "Long Barrel"
--- L["uplp_marlin_brl_long.compactname"] = "Long"
--- L["uplp_marlin_brl_long.description"] = "Aftermarket long barrel for the Model 94."
+L["uplp_weapon_marlin_manufacturer"] = "Marlin Firearms"
 
--- L["uplp_marlin_brl_short.printname"] = "Short Barrel"
--- L["uplp_marlin_brl_short.compactname"] = "Short"
--- L["uplp_marlin_brl_short.description"] = "Factory-made short barrel for the Model 94."
+//////////// Обвесы
+////// Стволы
+L["uplp_marlin_brl_long.printname"] = "Длинный ствол"
+L["uplp_marlin_brl_long.compactname"] = "Длинный"
+L["uplp_marlin_brl_long.description"] = "Дополнительный длинный ствол для Model 94."
 
--- L["uplp_marlin_brl_supp.printname"] = "Whisper Barrel"
--- L["uplp_marlin_brl_supp.compactname"] = "Whisper"
--- L["uplp_marlin_brl_supp.description"] = "Modernized, integrally suppressed barrel for the Model 94."
+L["uplp_marlin_brl_short.printname"] = "Короткий ствол"
+L["uplp_marlin_brl_short.compactname"] = "Короткий"
+L["uplp_marlin_brl_short.description"] = "Заводской короткий ствол для Model 94."
 
-////// Handguards
--- L["uplp_marlin_hg_wood.printname"] = "Wooden Handguard"
--- L["uplp_marlin_hg_wood.compactname"] = "Wood"
--- L["uplp_marlin_hg_wood.description"] = "Modern wooden handguard resembling the earlier Model 94 and its variants."
+L["uplp_marlin_brl_supp.printname"] = "Бесшумный ствол"
+L["uplp_marlin_brl_supp.compactname"] = "Бесшумный"
+L["uplp_marlin_brl_supp.description"] = "Модернизированный ствол со встроенным глушителем для Model 94."
 
--- L["uplp_marlin_hg_poly.printname"] = "Polymer Handguard"
--- L["uplp_marlin_hg_poly.compactname"] = "Polymer"
--- L["uplp_marlin_hg_poly.description"] = "Modernized polymer handguard for the Model 94."
+////// Цевья
+L["uplp_marlin_hg_wood.printname"] = "Деревянное цевьё"
+L["uplp_marlin_hg_wood.compactname"] = "Дерево"
+L["uplp_marlin_hg_wood.description"] = "Современное деревянное цевьё, напоминающее ранние Model 94 и их варианты."
 
--- L["uplp_marlin_hg_tac.printname"] = "PAWCO Handguard"
--- L["uplp_marlin_hg_tac.compactname"] = "PAWCO"
--- L["uplp_marlin_hg_tac.description"] = "Tactical handguard from PAWCO made for the Model 94."
+L["uplp_marlin_hg_poly.printname"] = "Полимерное цевьё"
+L["uplp_marlin_hg_poly.compactname"] = "Полимер"
+L["uplp_marlin_hg_poly.description"] = "Модернизированное полимерное цевьё для Model 94."
 
--- L["uplp_marlin_hg_tac_cover.printname"] = "ApexCore Arsenal Handguard"
--- L["uplp_marlin_hg_tac_cover.compactname"] = "ApexCore"
--- L["uplp_marlin_hg_tac_cover.description"] = "Tactical handguard from ApexCore Arsenal made for the Model 94."
+L["uplp_marlin_hg_tac.printname"] = "Цевьё PAWCO"
+L["uplp_marlin_hg_tac.compactname"] = "PAWCO"
+L["uplp_marlin_hg_tac.description"] = "Тактическое цевьё от PAWCO для Model 94."
 
-////// Stocks
--- L["uplp_marlin_stock_wood.printname"] = "Wooden Stock"
--- L["uplp_marlin_stock_wood.compactname"] = "Wood"
--- L["uplp_marlin_stock_wood.description"] = "Modern wooden stock resembling the earlier Model 94 and its variants."
+L["uplp_marlin_hg_tac_cover.printname"] = "Цевьё ApexCore Arsenal"
+L["uplp_marlin_hg_tac_cover.compactname"] = "ApexCore"
+L["uplp_marlin_hg_tac_cover.description"] = "Тактическое цевьё от ApexCore Arsenal для Model 94."
 
--- L["uplp_marlin_stock_poly.printname"] = "Polymer Stock"
--- L["uplp_marlin_stock_poly.compactname"] = "Polymer"
--- L["uplp_marlin_stock_poly.description"] = "Modernized polymer stock for the Model 94."
+////// Приклады
+L["uplp_marlin_stock_wood.printname"] = "Деревянный приклад"
+L["uplp_marlin_stock_wood.compactname"] = "Дерево"
+L["uplp_marlin_stock_wood.description"] = "Современный деревянный приклад, напоминающий ранние модели 94 и их варианты."
 
--- L["uplp_marlin_stock_cut_wood.printname"] = "Sawed-Off Wooden Stock"
--- L["uplp_marlin_stock_cut_wood.compactname"] = "Sawed-Off"
--- L["uplp_marlin_stock_cut_wood.description"] = "Sawed-off wooden stock for the Model 94."
+L["uplp_marlin_stock_poly.printname"] = "Полимерный приклад"
+L["uplp_marlin_stock_poly.compactname"] = "Полимер"
+L["uplp_marlin_stock_poly.description"] = "Модернизированный полимерный приклад для Model 94."
 
--- L["uplp_marlin_stock_cut_poly.printname"] = "Sawed-off Polymer Stock"
--- L["uplp_marlin_stock_cut_poly.compactname"] = "Sawed Poly"
--- L["uplp_marlin_stock_cut_poly.description"] = "Sawed-off polymer stock for the Model 94."
+L["uplp_marlin_stock_cut_wood.printname"] = "Укороченный деревянный приклад"
+L["uplp_marlin_stock_cut_wood.compactname"] = "Укороченный"
+L["uplp_marlin_stock_cut_wood.description"] = "Укороченный деревянный приклад для Model 94."
 
--- L["uplp_marlin_stock_sniper.printname"] = "Eagle Eye Stock"
--- L["uplp_marlin_stock_sniper.compactname"] = "Eagle Eye"
--- L["uplp_marlin_stock_sniper.description"] = "Homemade modified polymer stock with a raised cheekrest."
+L["uplp_marlin_stock_cut_poly.printname"] = "Укороченный полимерный приклад"
+L["uplp_marlin_stock_cut_poly.compactname"] = "Укор. поли."
+L["uplp_marlin_stock_cut_poly.description"] = "Укороченный полимерный приклад для Model 94."
 
--- L["uplp_marlin_stock_tac.printname"] = "PAWCO Stock"
--- L["uplp_marlin_stock_tac.compactname"] = "PAWCO"
--- L["uplp_marlin_stock_tac.description"] = "Tactical stock from PAWCO made for the Model 94."
+L["uplp_marlin_stock_sniper.printname"] = "Приклад \"Орлиный глаз\""
+L["uplp_marlin_stock_sniper.compactname"] = "Орлиный глаз"
+L["uplp_marlin_stock_sniper.description"] = "Самодельный модифицированный полимерный приклад с приподнятым упором для щеки."
 
-////// Internals
--- L["uplp_marlin_bolt_light.description"] = "Replaces the internal parts with more lightweight parts."
+L["uplp_marlin_stock_tac.printname"] = "Приклад PAWCO"
+L["uplp_marlin_stock_tac.compactname"] = "PAWCO"
+L["uplp_marlin_stock_tac.description"] = "Тактический приклад от PAWCO, предназначенный для Model 94."
 
--- L["uplp_marlin_bolt_heavy.description"] = "Replaces the internal parts with more reinforced parts."
+////// Внутренние компоненты
+L["uplp_marlin_bolt_light.description"] = "Заменяет внутренние детали на более лёгкие."
+L["uplp_marlin_bolt_heavy.description"] = "Заменяет внутренние детали на более усиленные."
 
-////// Extras
--- L["uplp_marlin_hg_ammo1.printname"] = "Handguard Cartridge Holder I"
--- L["uplp_marlin_hg_ammo1.compactname"] = "Holder I"
--- L["uplp_marlin_hg_ammo1.description"] = "Installs a cartridge holder on your handguard."
+////// Дополнительные аксессуары
+L["uplp_marlin_hg_ammo1.printname"] = "Держатель патронов на цевье I"
+L["uplp_marlin_hg_ammo1.compactname"] = "Держатель I"
+L["uplp_marlin_hg_ammo1.description"] = "Устанавливает держатель патронов на цевье. Вариант 1."
 
--- L["uplp_marlin_hg_ammo2.printname"] = "Handguard Cartridge Holder II"
--- L["uplp_marlin_hg_ammo2.compactname"] = "Holder II"
+L["uplp_marlin_hg_ammo2.printname"] = "Держатель патронов на цевье II"
+L["uplp_marlin_hg_ammo2.compactname"] = "Держатель II"
+L["uplp_marlin_hg_ammo2.description"] = "Устанавливает держатель патронов на цевье. Вариант 2."
 
--- L["uplp_marlin_hg_ammo3.printname"] = "Handguard Cartridge Holder III"
--- L["uplp_marlin_hg_ammo3.compactname"] = "Holder III"
+L["uplp_marlin_hg_ammo3.printname"] = "Держатель патронов на цевье III"
+L["uplp_marlin_hg_ammo3.compactname"] = "Держатель III"
+L["uplp_marlin_hg_ammo3.description"] = "Устанавливает держатель патронов на цевье. Вариант 3."
 
--- L["uplp_marlin_stock_ammo.printname"] = "Stock Cartridge Holder"
--- L["uplp_marlin_stock_ammo.compactname"] = "Holder"
--- L["uplp_marlin_stock_ammo.description"] = "Installs a cartridge holder on your stock."
+L["uplp_marlin_stock_ammo.printname"] = "Держатель патронов на прикладе"
+L["uplp_marlin_stock_ammo.compactname"] = "Держатель"
+L["uplp_marlin_stock_ammo.description"] = "Устанавливает держатель патронов на приклад."
 
--- L["uplp_marlin_skin_black.printname"] = "Tactical Black"
--- L["uplp_marlin_skin_black.compactname"] = "Black"
--- L["uplp_marlin_skin_black.description"] = "Replaces the chrome receiver and barrel with matte black versions."
+L["uplp_marlin_skin_black.printname"] = "Тактический чёрный"
+L["uplp_marlin_skin_black.compactname"] = "Чёрный"
+L["uplp_marlin_skin_black.description"] = "Заменяет хромированную ствольную коробку и ствол на матовые чёрные версии."
 
--- L["uplp_marlin_skin_gold.printname"] = "Tactical Black w/ Gold Internals"
--- L["uplp_marlin_skin_gold.compactname"] = "Black+Gold"
--- L["uplp_marlin_skin_gold.description"] = "Replaces the chrome receiver and barrel with matte black versions, and the internals with gold-plated ones."
+L["uplp_marlin_skin_gold.printname"] = "Тактический чёрный с золотыми внутренними деталями"
+L["uplp_marlin_skin_gold.compactname"] = "Чёрный + золото"
+L["uplp_marlin_skin_gold.description"] = "Заменяет хромированную ствольную коробку и ствол на матовые чёрные версии, а внутренние детали на позолоченные."
 
--- L["uplp_marlin_rs_railsight.printname"] = "Top Rail with Ring Sight"
--- L["uplp_marlin_rs_railsight.compactname"] = "Rail"
--- L["uplp_marlin_rs_railsight.description"] = "Top-mounted rail for optics with built-in front and rear sight."
+L["uplp_marlin_rs_railsight.printname"] = "Верхняя планка с кольцевым прицелом"
+L["uplp_marlin_rs_railsight.compactname"] = "Планка"
+L["uplp_marlin_rs_railsight.description"] = "Верхняя планка для оптики со встроенным передним и задним прицелом."
 
--- L["uplp_marlin_rs_railsight_long.printname"] = "Extended Top Rail with Ring Sight"
--- L["uplp_marlin_rs_railsight_long.compactname"] = "Ext. Rail"
--- L["uplp_marlin_rs_railsight_long.description"] = "Top-mounted extended rail for bigger optics with built-in front and rear sight."
+L["uplp_marlin_rs_railsight_long.printname"] = "Удлинённая верхняя планка с кольцевым прицелом"
+L["uplp_marlin_rs_railsight_long.compactname"] = "Удлинённая планка"
+L["uplp_marlin_rs_railsight_long.description"] = "Удлинённая верхняя планка для крупной оптики со встроенным передним и задним прицелом."
 
-//////////////////// AR-57
--- L["uplp_weapon_ar57"] = "PCC-57"
+///////// Обвесы
+////// Стволы
+L["uplp_ar57_barrel_sd.printname"] = "180‑мм ствол с глушителем"
+L["uplp_ar57_barrel_sd.compactname"] = "180‑мм СД"
+L["uplp_ar57_barrel_sd.description"] = "Модифицированный 180‑мм (7‑дюймовый) ствол со встроенным глушителем для PCC‑57."
 
--- L["uplp_weapon_ar57_desc"] = "Designed in 2008, the PCC-57 (\"Pistol Caliber Carbine\") is essentially a modified upper receiver for AR-15 rifles designed to utilize top-mounted 5.7×28mm magazines. The PCC-57 is a fast-firing, very deadly CQB beast perfect for fans of the AR-15."
+L["uplp_ar57_barrel_long.printname"] = "455‑мм ствол"
+L["uplp_ar57_barrel_long.compactname"] = "455‑мм"
+L["uplp_ar57_barrel_long.description"] = "Длинный 455‑мм (18‑дюймовый) ствол для PCC‑57."
 
--- L["uplp_weapon_ar57_real"] = "AR-57"
+///////// Обвесы
+////// Ресиверы
+L["uplp_sr25_rec_ar10.printname"] = "Ресивер AR-10"
+L["uplp_sr25_rec_ar10.compactname"] = "AR-10"
+L["uplp_sr25_rec_ar10.description"] = "Классический ресивер AR-10 с возможностью выбора режима огня.\nНе совместим с магазинами на 25 или 30 патронов калибра 6.8 мм."
 
--- L["uplp_weapon_ar57_manufacturer"] = "AR57 LLC"
+L["uplp_sr25_rec_troy.printname"] = "Ресивер Home Defense 61"
+L["uplp_sr25_rec_troy.compactname"] = "HD-61"
+L["uplp_sr25_rec_troy.description"] = "Автоматический приемник для DMR-10.\n\n<color=255,255,100>Только для администратора - значительно улучшает статистику и разбалансированность. Это сделано исключительно для развлечения - этот SWEP предназначен для использования только в качестве полуавтоматического DMR!</color>"
 
-/////////// Attachments
-////// Barrels
--- L["uplp_ar57_barrel_sd.printname"] = "180mm SD Barrel"
--- L["uplp_ar57_barrel_sd.compactname"] = "180mm SD"
--- L["uplp_ar57_barrel_sd.description"] = "Modified 180mm (7\") barrel with built-in suppressor for the PCC-57."
+L["uplp_sr25_rec_auto.printname"] = "Автоматический ресивер"
+L["uplp_sr25_rec_auto.compactname"] = "Авто."
+L["uplp_sr25_rec_auto.description"] = "Послепродажный ресивер с помповым механизмом для DMR-10.\nНе совместим с другими цевьями."
 
--- L["uplp_ar57_barrel_long.printname"] = "455mm Barrel"
--- L["uplp_ar57_barrel_long.compactname"] = "455mm"
--- L["uplp_ar57_barrel_long.description"] = "Long 455mm (18\") barrel for the PCC-57."
+////// Магазины
+L["uplp_sr25_mag_10.printname"] = "Магазин на 10 патронов 7.62×51 мм (алюминий)"
+L["uplp_sr25_mag_10.compactname"] = "10R Алюм."
+L["uplp_sr25_mag_10.description"] = "Магазин на 10 патронов, изготовленный из алюминия."
 
-//////////////////// SR-25
-L["uplp_weapon_sr25"] = "DMR-10"
-L["uplp_weapon_sr25_desc"] = "Основанная на знаменитой платформе AR-15, DMR-10 - это мощная полуавтоматическая снайперская винтовка. Несмотря на начальные неудачи в конкурсе в 1950-х годах с BR14, DMR-10 все равно нашел свое применение в военных структурах различных сил."
+L["uplp_sr25_mag_10_poly.printname"] = "Магазин на 10 патронов 7.62×51 мм (полимер)"
 
-L["uplp_weapon_sr25_real"] = "KAC SR-25"
+L["uplp_sr25_mag_20.printname"] = "Магазин на 20 патронов 7.62×51 мм (алюминий)"
 
-L["uplp_weapon_sr25_manufacturer"] = "Knight's Armament Company"
+L["uplp_sr25_mag_20_old.printname"] = "Магазин на 20 патронов 7.62×51 мм (классический)"
+L["uplp_sr25_mag_20_old.compactname"] = "20R Классич."
+L["uplp_sr25_mag_20_old.description"] = "Классический магазин на 20 патронов, изготовленный из алюминия."
 
-/////////// Attachments
-////// Receivers
--- L["uplp_sr25_rec_ar10.printname"] = "AR-10 Receiver"
--- L["uplp_sr25_rec_ar10.compactname"] = "AR-10"
--- L["uplp_sr25_rec_ar10.description"] = "Classic AR-10 receiver with select-fire capability.\nNot compatible with <color=255,100,100>25 or 30-round 6.8mm magazines</color>."
+L["uplp_sr25_mag_20_poly.printname"] = "Магазин на 20 патронов 7.62×51 мм (полимер)"
 
--- L["uplp_sr25_rec_troy.printname"] = "Home Defense 61 Receiver"
--- L["uplp_sr25_rec_troy.compactname"] = "HD-61"
--- L["uplp_sr25_rec_troy.description"] = "Aftermarket pump-action receiver for the DMR-10.\nNot compatible with <color=255,100,100>other handguards</color>."
+L["uplp_sr25_mag_25.printname"] = "Магазин на 25 патронов 7.62×51 мм (полимер)"
+L["uplp_sr25_mag_25.compactname"] = "25R Поли"
+L["uplp_sr25_mag_25.description"] = "Удлинённый магазин на 25 патронов, изготовленный из полимера."
 
-////// Magazines
--- L["uplp_sr25_mag_10.printname"] = "10-Round 7.62×51mm (Aluminium)"
--- L["uplp_sr25_mag_10.compactname"] = "10R Alum"
--- L["uplp_sr25_mag_10.description"] = "10-round magazine made out of aluminium."
+L["uplp_sr25_mag_30.printname"] = "Магазин на 30 патронов 7.62×51 мм (полимер)"
+L["uplp_sr25_mag_30.compactname"] = "30R Поли"
+L["uplp_sr25_mag_30.description"] = "Удлинённый магазин на 30 патронов, изготовленный из полимера."
 
--- L["uplp_sr25_mag_10_poly.printname"] = "10-Round 7.62×51mm (Polymer)"
-
--- L["uplp_sr25_mag_20.printname"] = "20-Round 7.62×51mm (Aluminium)"
-
--- L["uplp_sr25_mag_20_old.printname"] = "20-Round 7.62×51mm (Classic)"
--- L["uplp_sr25_mag_20_old.compactname"] = "20R Classic"
--- L["uplp_sr25_mag_20_old.description"] = "Classic 20-round magazine made out of aluminium."
-
--- L["uplp_sr25_mag_20_poly.printname"] = "20-Round 7.62×51mm (Polymer)"
-
--- L["uplp_sr25_mag_25.printname"] = "25-Round 7.62×51mm (Polymer)"
--- L["uplp_sr25_mag_25.compactname"] = "25R Poly"
--- L["uplp_sr25_mag_25.description"] = "25-round extended magazine made out of polymer."
-
--- L["uplp_sr25_mag_30.printname"] = "30-Round 7.62×51mm (Polymer)"
--- L["uplp_sr25_mag_30.compactname"] = "30R Poly"
--- L["uplp_sr25_mag_30.description"] = "30-round extended magazine made out of polymer."
-
-////// Handguards & Barrels
+////// Цевья и стволы
 local sr25brll = {
-	vshort = "\nComes with a 356mm (14\") barrel.",
-	short = "\nComes with a 410mm (16\") barrel.",
-	med = "\nComes with a 510mm (20\") barrel.",
-	long = "\nComes with a 610mm (24\") barrel.",
-	vlong = "\nComes with a 710mm (28\") barrel.",
+	vshort = "\nПоставляется со стволом длиной 356 мм (14 дюймов).",
+	short = "\nПоставляется со стволом длиной 410 мм (16 дюймов).",
+	med = "\nПоставляется со стволом длиной 510 мм (20 дюймов).",
+	long = "\nПоставляется со стволом длиной 610 мм (24 дюйма).",
+	vlong = "\nПоставляется со стволом длиной 710 мм (28 дюймов).",
 }
 
--- L["uplp_sr25_hg_short.printname"] = "Tactical Short Handguard & Very Short Barrel"
--- L["uplp_sr25_hg_short.compactname"] = "Short"
--- L["uplp_sr25_hg_short.description"] = "Short, tactical handguard for the DMR-10." .. sr25brll.vshort
+L["uplp_sr25_hg_short.printname"] = "Тактическое короткое цевьё и очень короткий ствол"
+L["uplp_sr25_hg_short.compactname"] = "Короткий"
+L["uplp_sr25_hg_short.description"] = "Короткое тактическое цевьё для DMR-10." .. sr25brll.vshort
 
--- L["uplp_sr25_hg_s15.printname"] = "Nowosuku S-15 Handguard & Short Barrel"
--- L["uplp_sr25_hg_s15.compactname"] = "S-15"
--- L["uplp_sr25_hg_s15.description"] = "Lightweight S-15 handguard manufactured by Nowosuku." .. sr25brll.short
+L["uplp_sr25_hg_s15.printname"] = "Цевьё Nowosuku S-15 и короткий ствол"
+L["uplp_sr25_hg_s15.compactname"] = "S-15"
+L["uplp_sr25_hg_s15.description"] = "Лёгкое цевьё S-15 производства Nowosuku." .. sr25brll.short
 
--- L["uplp_sr25_hg_mutant.printname"] = "Nowosuku SX6 Handguard & Short Barrel"
--- L["uplp_sr25_hg_mutant.compactname"] = "SX6"
--- L["uplp_sr25_hg_mutant.description"] = "Lightweight SX6 handguard manufactured by Nowosuku." .. sr25brll.short
+L["uplp_sr25_hg_mutant.printname"] = "Цевьё Nowosuku SX6 и короткий ствол"
+L["uplp_sr25_hg_mutant.compactname"] = "SX6"
+L["uplp_sr25_hg_mutant.description"] = "Лёгкое цевьё SX6 производства Nowosuku." .. sr25brll.short
 
--- L["uplp_sr25_hg_tac.printname"] = "Tactical Handguard"
--- L["uplp_sr25_hg_tac.compactname"] = "Tac."
--- L["uplp_sr25_hg_tac.description"] = "Tactical handguard for the DMR-10." .. sr25brll.med
+L["uplp_sr25_hg_tac.printname"] = "Тактическое цевьё"
+L["uplp_sr25_hg_tac.compactname"] = "Такт."
+L["uplp_sr25_hg_tac.description"] = "Тактическое цевьё для DMR-10." .. sr25brll.med
 
--- L["uplp_sr25_hg_s15xl.printname"] = "Nowosuku S-15 XL Handguard"
--- L["uplp_sr25_hg_s15xl.compactname"] = "S-15 XL"
--- L["uplp_sr25_hg_s15xl.description"] = "Longer variant of the lightweight S-15 handguard manufactured by Nowosuku." .. sr25brll.med
+L["uplp_sr25_hg_s15xl.printname"] = "Удлинённое цевьё Nowosuku S-15 XL"
+L["uplp_sr25_hg_s15xl.compactname"] = "S-15 XL"
+L["uplp_sr25_hg_s15xl.description"] = "Удлинённая версия лёгкого цевья S-15 производства Nowosuku." .. sr25brll.med
 
--- L["uplp_sr25_hg_ar50.printname"] = "Hoki Armory J-CLAP Handguard"
--- L["uplp_sr25_hg_ar50.compactname"] = "J-CLAP"
--- L["uplp_sr25_hg_ar50.description"] = "Lightweight tactical handguard for the DMR-10 made by Hoki Armory." .. sr25brll.med
+L["uplp_sr25_hg_ar50.printname"] = "Цевьё Hoki Armory J-CLAP"
+L["uplp_sr25_hg_ar50.compactname"] = "J-CLAP"
+L["uplp_sr25_hg_ar50.description"] = "Лёгкое тактическое цевьё для DMR-10 производства Hoki Armory." .. sr25brll.med
 
--- L["uplp_sr25_hg_mutantxl.printname"] = "Nowosuku SX6 XL Handguard & Long Barrel"
--- L["uplp_sr25_hg_mutantxl.compactname"] = "SX6 XL"
--- L["uplp_sr25_hg_mutantxl.description"] = "Longer variant of the lightweight SX6 handguard manufactured by Nowosuku." .. sr25brll.long
+L["uplp_sr25_hg_mutantxl.printname"] = "Удлинённое цевьё Nowosuku SX6 XL и длинный ствол"
+L["uplp_sr25_hg_mutantxl.compactname"] = "SX6 XL"
+L["uplp_sr25_hg_mutantxl.description"] = "Удлинённая версия лёгкого цевья SX6 производства Nowosuku." .. sr25brll.long
 
--- L["uplp_sr25_hg_mlok.printname"] = "M-LOK Handguard"
--- L["uplp_sr25_hg_mlok.compactname"] = "M-LOK"
--- L["uplp_sr25_hg_mlok.description"] = "Tactical M-LOK handguard allowing installation of various accessories." .. sr25brll.med
+L["uplp_sr25_hg_mlok.printname"] = "Цевьё M-LOK"
+L["uplp_sr25_hg_mlok.compactname"] = "M-LOK"
+L["uplp_sr25_hg_mlok.description"] = "Тактическое цевьё M-LOK, позволяющее устанавливать различные аксессуары." .. sr25brll.med
 
--- L["uplp_sr25_hg_mp10.printname"] = "S&H Handguard & Long Barrel"
--- L["uplp_sr25_hg_mp10.compactname"] = "S&H"
--- L["uplp_sr25_hg_mp10.description"] = "Aftermarket Sport & Hunting handguard for the DMR-10." .. sr25brll.long
+L["uplp_sr25_hg_mp10.printname"] = "Цевьё S&H и длинный ствол"
+L["uplp_sr25_hg_mp10.compactname"] = "S&H"
+L["uplp_sr25_hg_mp10.description"] = "Послепродажное цевьё Sport & Hunting для DMR-10." .. sr25brll.long
 
--- L["uplp_sr25_hg_m110.printname"] = "LRR-30 Handguard & Very Long Barrel"
--- L["uplp_sr25_hg_m110.compactname"] = "LRR-30"
--- L["uplp_sr25_hg_m110.description"] = "Modernized handguard from the LRR-30 (\"Long-Range Rifle, Model 30\")." .. sr25brll.vlong
+L["uplp_sr25_hg_m110.printname"] = "Цевьё LRR-30 и очень длинный ствол"
+L["uplp_sr25_hg_m110.compactname"] = "LRR-30"
+L["uplp_sr25_hg_m110.description"] = "Модернизированное цевьё от LRR‑30 (\"Винтовка дальнего боя, модель 30\")." .. sr25brll.vlong
 
--- L["uplp_sr25_hg_fns.printname"] = "FNS-90 Handguard & Very Long Barrel"
--- L["uplp_sr25_hg_fns.compactname"] = "FNS-90"
--- L["uplp_sr25_hg_fns.description"] = "Aftermarket handguard with <color=100,255,100>built-in bipod</color>." .. sr25brll.vlong
+L["uplp_sr25_hg_fns.printname"] = "Цевьё FNS‑90 и очень длинный ствол"
+L["uplp_sr25_hg_fns.compactname"] = "FNS‑90"
+L["uplp_sr25_hg_fns.description"] = "Послепродажное цевьё со <color=100,255,100>встроенной сошкой</color>." .. sr25brll.vlong
 
--- L["uplp_sr25_hg_ar10.printname"] = "AR-10 Handguard & Very Long Barrel"
--- L["uplp_sr25_hg_ar10.compactname"] = "AR-10"
--- L["uplp_sr25_hg_ar10.description"] = "Classic AR-10 handguard. Comes with a very long barrel.\nNot compatible with <color=255,100,100>muzzle devices</color>." .. sr25brll.vlong
+L["uplp_sr25_hg_ar10.printname"] = "Цевьё AR‑10 и очень длинный ствол"
+L["uplp_sr25_hg_ar10.compactname"] = "AR‑10"
+L["uplp_sr25_hg_ar10.description"] = "Классическое цевьё AR‑10. Поставляется с очень длинным стволом.\nНе совместимо с <color=255,100,100>дульными устройствами</color>." .. sr25brll.vlong
 
-////// Muzzles
--- L["uplp_sr25_muz_def.printname"] = "DMR-10 Flash Hider"
--- L["uplp_sr25_muz_def.compactname"] = "DMR-10"
--- L["uplp_sr25_muz_def.description"] = "Factory-spec flash hider for the DMR-10."
+////// Дульные устройства
+L["uplp_sr25_muz_def.printname"] = "Пламегаситель DMR‑10"
+L["uplp_sr25_muz_def.compactname"] = "DMR‑10"
+L["uplp_sr25_muz_def.description"] = "Штатный пламегаситель для DMR‑10."
 
--- L["uplp_sr25_muz_fns.printname"] = "FNS-762 Muzzle Brake"
--- L["uplp_sr25_muz_fns.compactname"] = "FNS-762"
--- L["uplp_sr25_muz_fns.description"] = "Aftermarket muzzle brake for the DMR-10."
+L["uplp_sr25_muz_fns.printname"] = "Дульный тормоз FNS‑762"
+L["uplp_sr25_muz_fns.compactname"] = "FNS‑762"
+L["uplp_sr25_muz_fns.description"] = "Послепродажный дульный тормоз для DMR‑10."
 
--- L["uplp_sr25_muz_m110.printname"] = "LRR-30 Suppressor"
--- L["uplp_sr25_muz_m110.compactname"] = "LRR-30"
--- L["uplp_sr25_muz_m110.description"] = "Factory-made suppressor for the LRR-30 (\"Long-Range Rifle, Model 30\")."
+L["uplp_sr25_muz_m110.printname"] = "Глушитель LRR‑30"
+L["uplp_sr25_muz_m110.compactname"] = "LRR‑30"
+L["uplp_sr25_muz_m110.description"] = "Заводской глушитель для LRR‑30 (\"Винтовка дальнего боя, модель 30\")."
 
-////// Iron Sights
--- L["uplp_sr25_rstroy.printname"] = "Home Defence M-22 Rear Sight"
--- L["uplp_sr25_rstroy.compactname"] = "M-22"
--- L["uplp_sr25_rstroy.description"] = "Aftermarket rear sight made by Home Defence for AR-10 rifles.\nOnly compatible with the following front sights:\n[ <color=100,255,100>IronWorks | Type II | Type III</color> ]\nAlso compatible with the <color=100,255,100>Gas Block with Built-in Front Sight</color>."
--- ↨Whichever of these is correct ↨
--- L["uplp_sr25_rstroy.description"] = "Aftermarket rear sight made by Home Defence for AR-10 rifles.\nOnly compatible with the following front sights:\n[ <color=100,255,100>PAWCO | Type I | Standard (XAR)</color> ]\nNot compatible with the <color=255,100,100>Gas Block with Built-in Front Sight</color>."
+////// Механические прицельные Обвесы
+L["uplp_sr25_rstroy.printname"] = "Задний прицел Home Defence M‑22"
+L["uplp_sr25_rstroy.compactname"] = "M‑22"
+L["uplp_sr25_rstroy.description"] = "Послепродажный задний прицел производства Home Defence для винтовок AR‑10.\nСовместим только со следующими передними прицелами:\n[ <color=100,255,100>IronWorks | Type II | Type III</color> ]\nТакже совместим с <color=100,255,100>газовым блоком со встроенным передним прицелом</color>."
 
--- L["uplp_sr25_fstroy.printname"] = "Home Defence M-22 Front Sight"
--- L["uplp_sr25_fstroy.compactname"] = "M-22"
--- L["uplp_sr25_fstroy.description"] = "Aftermarket front sight made by Home Defence for AR-10 rifles."
+L["uplp_sr25_fstroy.printname"] = "Передний прицел Home Defence M‑22"
+L["uplp_sr25_fstroy.compactname"] = "M‑22"
+L["uplp_sr25_fstroy.description"] = "Послепродажный передний прицел производства Home Defence для винтовок AR‑10."
 
-////// Wooden Pieces
--- L["uplp_sr25_stock_wood.printname"] = "Wooden AR-10 Stock"
--- L["uplp_sr25_stock_wood.compactname"] = "Wood"
--- L["uplp_sr25_stock_wood.description"] = "Replaces the stock with a wooden AR-10 stock." .. desc_stock_l .. desc_stock_standard
+////// Деревянные детали
+L["uplp_sr25_stock_wood.printname"] = "Деревянный приклад AR‑10"
+L["uplp_sr25_stock_wood.compactname"] = "Дерево"
+L["uplp_sr25_stock_wood.description"] = "Заменяет приклад на деревянный приклад AR‑10. Имеет <color=255,150,100>большое уменьшение скорости и отдачи</color>.\nАрхетипичный приклад с <color=100,255,100>сбалансированной производительностью</color> для своего класса."
 
--- L["uplp_sr25_pgrip_wood.printname"] = "Wooden AR-10 Pistol Grip"
--- L["uplp_sr25_pgrip_wood.compactname"] = "Wood"
--- L["uplp_sr25_pgrip_wood.description"] = "Replaces the pistol grip with a wooden AR-10 pistol grip.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_sr25_pgrip_wood.printname"] = "Деревянная пистолетная рукоятка AR‑10"
+L["uplp_sr25_pgrip_wood.compactname"] = "Дерево"
+L["uplp_sr25_pgrip_wood.description"] = "Заменяет пистолетную рукоятку на деревянную пистолетную рукоятку AR‑10.\nЧисто <color=160,160,255>декоративная</color> модификация."
 
-//////////////////// SWORD MK-18 Mjölnir
--- L["uplp_weapon_mjolnir"] = "Excalibur .338"
--- L["uplp_weapon_mjolnir_desc"] = "Essentially an oversized DMR-10, the Excalibur .338 is a cutting-edge rifle known for its modular design and versatility in various tactical scenarios. Only the real king is worthy of wielding this rifle."
+//////////////////// SWORD MK‑18 Mjölnir
+L["uplp_weapon_mjolnir"] = "Excalibur .338"
 
--- L["uplp_weapon_mjolnir_real"] = "S.W.O.R.D. MK-18 Mjölnir"
+L["uplp_weapon_mjolnir_desc"] = "По сути, это увеличенная версия DMR‑10. Excalibur .338 — современная винтовка, известная своей модульной конструкцией и универсальностью в различных тактических сценариях. Лишь настоящий король достоин владеть этой винтовкой."
 
--- L["uplp_weapon_mjolnir_manufacturer"] = "S.W.O.R.D. International"
+L["uplp_weapon_mjolnir_real"] = "S.W.O.R.D. MK‑18 Mjölnir"
 
-/////////// Attachments
-////// Handguard
--- L["uplp_mjolnir_hg_short.printname"] = "Compact Handguard & Short Barrel"
--- L["uplp_mjolnir_hg_short.compactname"] = "Compact"
--- L["uplp_mjolnir_hg_short.description"] = "Applies a shorter barrel to the Excalibur .338, and installs a compact handguard.\nNot a great idea on such powerful weapon, but we won't stop you."
+L["uplp_weapon_mjolnir_manufacturer"] = "S.W.O.R.D. International"
 
-////// Magazine
--- L["uplp_mjolnir_mag_20.printname"] = "20-Round PAWCO .338 Drum"
--- L["uplp_mjolnir_mag_20.compactname"] = "20R .338"
--- L["uplp_mjolnir_mag_20.description"] = "Aftermarket 20-round drum magazine made by PAWCO."
+/////////// Обвесы
+////// Ствол
+L["uplp_mjolnir_hg_short.printname"] = "Компактное цевьё и короткий ствол"
+L["uplp_mjolnir_hg_short.compactname"] = "Компакт."
+L["uplp_mjolnir_hg_short.description"] = "Устанавливает более короткий ствол на Excalibur .338 и монтирует компактное цевьё.\nНе лучшая идея для столь мощного оружия, но мы вас не остановим."
 
-////// Other
--- L["uplp_mjolnir_black.printname"] = "Tactical Black"
--- L["uplp_mjolnir_black.compactname"] = "Black"
--- L["uplp_mjolnir_black.description"] = "Replaces the receiver and handguard with a black coloured ones."
+////// Магазины
+L["uplp_mjolnir_mag_20.printname"] = "20‑зарядный PAWCO .338"
+L["uplp_mjolnir_mag_20.compactname"] = "20R .338"
+L["uplp_mjolnir_mag_20.description"] = "Послепродажный 20‑зарядный барабанный магазин производства PAWCO."
 
--- L["uplp_mjolnir_sup.printname"] = "Heavy Suppressor"
--- L["uplp_mjolnir_sup.compactname"] = "Suppressor"
--- L["uplp_mjolnir_sup.description"] = "Heavy suppressor for the Excalibur .338 that dampens the firing noise and improves recoil control at the larger cost of range and mobility."
+////// Другое
+L["uplp_mjolnir_black.printname"] = "Тактический чёрный"
+L["uplp_mjolnir_black.compactname"] = "Чёрный"
+L["uplp_mjolnir_black.description"] = "Заменяет ствольную коробку и цевьё на чёрные."
+
+L["uplp_mjolnir_sup.printname"] = "Тяжёлый глушитель"
+L["uplp_mjolnir_sup.compactname"] = "Глушитель"
+L["uplp_mjolnir_sup.description"] = "Тяжёлый глушитель для Excalibur .338, снижающий шум выстрела и улучшающий контроль отдачи, но существенно уменьшающий дальность стрельбы и мобильность."
 
 //////////////////// H&K USP
--- L["uplp_weapon_usp"] = "MSW .45"
--- L["uplp_weapon_usp_desc"] = "The Modular Sidearm (\"Modulare Seitenwaffe\"), chambered in .45 Auto, is a highly customizable German handgun, initially created for a U.S. Special Forces program requesting a purpose-built handgun, resulting in the Mk. 40 Mod 0."
+L["uplp_weapon_usp"] = "Модульный пистолет (MSW) .45"
 
--- L["uplp_weapon_usp_real"] = "H&K USP"
+L["uplp_weapon_usp_desc"] = "Модульный пистолет (\"Modulare Seitenwaffe\"), под патрон .45 Auto, — высоконастраиваемый немецкий пистолет, изначально созданный для программы спецподразделений США, требовавшей специально разработанное оружие, в результате чего появился Mk. 40 Mod 0."
 
--- L["uplp_weapon_usp_manufacturer"] = "Heckler & Koch"
+L["uplp_weapon_usp_real"] = "H&K USP"
 
-/////////// Attachments
-////// Slide
--- L["uplp_usp_slide_compact.printname"] = "\"Kompakt\" Slide & Frame"
--- L["uplp_usp_slide_compact.compactname"] = "Kompakt"
--- L["uplp_usp_slide_compact.description"] = "Compact slide and frame from the more compact MSWK."
+L["uplp_weapon_usp_manufacturer"] = "Heckler & Koch"
 
--- L["uplp_usp_slide_expert.printname"] = "\"Experte\" Slide"
--- L["uplp_usp_slide_expert.compactname"] = "Experte"
--- L["uplp_usp_slide_expert.description"] = "Slightly longer slide from the MSW .40 Experte."
+/////////// Обвесы
+////// Затвор
+L["uplp_category_slide"] = "Затвор"
 
--- L["uplp_usp_slide_elite.printname"] = "\"Prestige\" Slide"
--- L["uplp_usp_slide_elite.compactname"] = "Prestige"
--- L["uplp_usp_slide_elite.description"] = "Hand-fitted extended slide from the MSW .45 Prestige."
+L["uplp_usp_slide_compact.printname"] = "Затвор \"Kompakt\""
+L["uplp_usp_slide_compact.compactname"] = "Kompakt"
+L["uplp_usp_slide_compact.description"] = "Компактный затвор от более компактной модели MSWK."
 
-////// Muzzle
--- L["uplp_usp_muz_heavy.printname"] = "\"Schwer\" Muzzle Brake"
--- L["uplp_usp_muz_heavy.compactname"] = "Schwer"
--- L["uplp_usp_muz_heavy.description"] = "Aftermarket German muzzle brake for the MSW."
+L["uplp_usp_slide_expert.printname"] = "Затвор \"Experte\""
+L["uplp_usp_slide_expert.compactname"] = "Experte"
+L["uplp_usp_slide_expert.description"] = "Немного удлинённый затвор от MSW .40 Experte."
 
--- L["uplp_usp_muz_match.printname"] = "\"Präzision\" Barrel Weight"
--- L["uplp_usp_muz_match.compactname"] = "Präzision"
--- L["uplp_usp_muz_match.description"] = "Factory-built muzzle attachment that provides recoil counterbalance."
+L["uplp_usp_slide_elite.printname"] = "Затвор \"Prestige\""
+L["uplp_usp_slide_elite.compactname"] = "Prestige"
+L["uplp_usp_slide_elite.description"] = "Удлинённый затвор ручной подгонки от MSW .45 Prestige."
 
--- L["uplp_usp_muz_supp.printname"] = "\"Silent Strike\" Suppressor"
--- L["uplp_usp_muz_supp.compactname"] = "S.S. Supp."
--- L["uplp_usp_muz_supp.description"] = "Aftermarket suppressor for low-calibre handguns."
+////// Дульный тормоз
+L["uplp_usp_muz_heavy.printname"] = "Дульный тормоз \"Schwer\""
+L["uplp_usp_muz_heavy.compactname"] = "Schwer"
+L["uplp_usp_muz_heavy.description"] = "Послепродажный немецкий дульный тормоз для MSW."
 
-////// Magazines
--- L["uplp_usp_mag_20.printname"] = "20-Round .45 ACP"
--- L["uplp_usp_mag_20.compactname"] = "20R .45"
--- L["uplp_usp_mag_20.description"] = "Extended 20-round .45 ACP magazine for the MSW .45."
+L["uplp_usp_muz_match.printname"] = "Утяжелитель ствола \"Präzision\""
+L["uplp_usp_muz_match.compactname"] = "Präzision"
+L["uplp_usp_muz_match.description"] = "Заводское дульное устройство, обеспечивающее противовес при отдаче."
 
--- L["uplp_usp_mag_tac.printname"] = "12-Round .45 ACP Ergo Mag"
--- L["uplp_usp_mag_tac.compactname"] = "12R .45 Ergo"
+L["uplp_usp_muz_supp.printname"] = "Глушитель \"Silent Strike\""
+L["uplp_usp_muz_supp.compactname"] = "S.S. Supp."
+L["uplp_usp_muz_supp.description"] = "Послепродажный глушитель для малокалиберных пистолетов."
 
-////// Irons
--- L["uplp_usp_irons_tac.printname"] = "SHW-T Iron Sights"
--- L["uplp_usp_irons_tac.compactname"] = "SHW-T"
--- L["uplp_usp_irons_tac.description"] = "Adjustable suppressor height iron sights from the SHW-T."
+////// Магазины
+L["uplp_usp_mag_20.printname"] = "20‑зарядный .45 ACP"
+L["uplp_usp_mag_20.compactname"] = "20з .45"
+L["uplp_usp_mag_20.description"] = "Удлинённый 20‑зарядный магазин .45 ACP для MSW .45."
 
-////// Skins
--- L["uplp_usp_skin_chrome.printname"] = "Chrome"
--- L["uplp_usp_skin_chrome.compactname"] = "Chrome"
--- L["uplp_usp_skin_chrome.description"] = "Replaces the slide with a chromed one."
+L["uplp_usp_mag_tac.printname"] = "12‑зарядный .45 ACP эргономичный магазин"
+L["uplp_usp_mag_tac.compactname"] = "12з .45 Эрго"
 
--- L["uplp_usp_skin_gold.description"] = "Replaces the slide with golden one."
+////// Тактикул
+L["uplp_usp_laser.printname"] = "LuminaFire Armaments S-MOD"
+L["uplp_usp_laser.compactname"] = "S-MOD"
+L["uplp_usp_laser.description"] = "Изготовленный на заказ лазерный модуль и фонарик, разработанный для MSW .45 калибра, производства LuminaFire Armaments.\n\nИдеально подходит для гуру спецназа, который считает картонные коробки отличным укрытием."
 
--- L["uplp_usp_skin_cylo.description"] = "Replaces the slide with one painted metallic blue.\nThis variant of blue is nicknamed \"Cylo Blue\", named after an exotic species of bat."
+////// Механические прицельные Обвесы
+L["uplp_usp_irons_tac.printname"] = "Механические прицельные Обвесы SHW‑T"
+L["uplp_usp_irons_tac.compactname"] = "SHW‑T"
+L["uplp_usp_irons_tac.description"] = "Регулируемые механические прицельные Обвесы с учётом высоты глушителя от SHW‑T."
 
--- L["uplp_usp_skin_red.printname"] = "Red"
--- L["uplp_usp_skin_red.compactname"] = "Red"
--- L["uplp_usp_skin_red.description"] = "Replaces the slide with a shiny red one."
+////// Скины
+L["uplp_usp_skin_chrome.printname"] = "Хром"
+L["uplp_usp_skin_chrome.compactname"] = "Хром"
+L["uplp_usp_skin_chrome.description"] = "Заменяет затвор на хромированный."
 
--- L["uplp_usp_skin_white.printname"] = "Matte White"
--- L["uplp_usp_skin_white.compactname"] = "White"
--- L["uplp_usp_skin_white.description"] = "Replaces the slide with a matte white one."
+L["uplp_usp_skin_gold.description"] = "Заменяет затвор на золотой."
 
--- L["uplp_usp_skin_black.printname"] = "Matte Black"
--- L["uplp_usp_skin_black.compactname"] = "Black"
--- L["uplp_usp_skin_black.description"] = "Replaces the slide with a matte black one."
+L["uplp_usp_skin_blue.printname"] = "Синий Cylo"
+L["uplp_usp_skin_blue.compactname"] = "Cylo"
+L["uplp_usp_skin_blue.description"] = "Заменяет затвор на окрашенный в металлический синий цвет.\nЭтот вариант синего цвета прозван \"Цикловым синим\" в честь экзотического вида летучих мышей."
 
-////// Other
--- L["uplp_sticker_usp_paw.printname"] = "MSW .45 Match Paw Sticker"
--- L["uplp_sticker_usp_paw.compactname"] = "Paw"
--- L["uplp_sticker_usp_paw.description"] = "Sticker for the MSW .45 Match muzzle attachment."
+L["uplp_usp_skin_red.printname"] = "Красный"
+L["uplp_usp_skin_red.compactname"] = "Красный"
+L["uplp_usp_skin_red.description"] = "Заменяет затвор на блестящий красный."
 
--- L["uplp_sticker_usp_match.printname"] = "MSW .45 Match <Insert funny text> Sticker"
--- L["uplp_sticker_usp_match.compactname"] = "<Insert funny text>"
--- L["uplp_sticker_usp_match.description"] = "Sticker for the MSW .45 Match muzzle attachment."
+L["uplp_usp_skin_white.printname"] = "Матовый белый"
+L["uplp_usp_skin_white.compactname"] = "Белый"
+L["uplp_usp_skin_white.description"] = "Заменяет затвор на матовый белый."
 
-//////////////////// KS23
--- L["uplp_weapon_ks23"] = "Pushka-23"
--- L["uplp_weapon_ks23_desc"] = "The Pushka-23 (Russian: Пушка | Pushka, \"Cannon\") is a Soviet 23 mm large-bore smoothbore shotgun developed for law-enforcement and correctional use, built to deliver powerful, short-range effect with specially designed low-velocity cartridges."
+L["uplp_usp_skin_black.printname"] = "Матовый чёрный"
+L["uplp_usp_skin_black.compactname"] = "Чёрный"
+L["uplp_usp_skin_black.description"] = "Заменяет затвор на матовый чёрный."
 
--- L["uplp_weapon_ks23_real"] = "KS-23"
+////// Другое
+L["uplp_sticker_usp_paw.printname"] = "Наклейка \"Лапа\" для MSW .45 Match"
+L["uplp_sticker_usp_paw.compactname"] = "Лапа"
+L["uplp_sticker_usp_paw.description"] = "Наклейка для дульного устройства MSW .45 Match."
 
--- L["uplp_weapon_ks23_manufacturer"] = "Tula Arms Plant"
+L["uplp_sticker_usp_match.printname"] = "Наклейка \"MSW .45 Match <Вставьте забавный текст>\""
+L["uplp_sticker_usp_match.compactname"] = "<Вставьте забавный текст>"
+L["uplp_sticker_usp_match.description"] = "Наклейка для дульного устройства MSW .45 Match."
 
-/////////// Attachments
-////// Barrels
--- L["uplp_ks23_bar_short.printname"] = "Compact Barrel"
--- L["uplp_ks23_bar_short.compactname"] = "Compact"
--- L["uplp_ks23_bar_short.description"] = "Shortened barrel for the Pushka-23.\nComes with a <color=255,100,100>4-round</color> tube."
+//////////////////// КС-23
+L["uplp_weapon_ks23"] = "Pushka-23"
 
--- L["uplp_ks23_bar_ext.printname"] = "Extended Tube"
--- L["uplp_ks23_bar_ext.compactname"] = "Ext."
--- L["uplp_ks23_bar_ext.description"] = "Factory barrel with an extended <color=100,255,100>5-round</color> capacity tube."
+L["uplp_weapon_ks23_desc"] = "КС-23 (от \"карабин специальный\") — советский крупнокалиберный гладкоствольный дробовик, разработанный для правоохранительных органов и исправительных учреждений. Предназначен для оказания мощного воздействия на короткой дистанции с использованием специальных малоскоростных патронов."
 
--- L["uplp_ks23_bar_sniper.printname"] = "Sniper Barrel"
--- L["uplp_ks23_bar_sniper.compactname"] = "Sniper"
--- L["uplp_ks23_bar_sniper.description"] = "Long barrel for the Pushka-23.\nComes with a <color=100,255,100>4-round</color> tube."
+L["uplp_weapon_ks23_real"] = "КС-23"
 
-////// Stock
--- L["uplp_ks23_stock_grip.printname"] = "Pistol Grip"
--- L["uplp_ks23_stock_grip.compactname"] = "Pistol"
--- L["uplp_ks23_stock_grip.description"] = "Removes the stock from the Pushka-23, replacing it with a regular pistol grip.\n\nNot advised to use, as it can, and most likely will, break your wrist."
+L["uplp_weapon_ks23_manufacturer"] = "Тульский оружейный завод"
 
--- L["uplp_ks23_stock_grip_stock.printname"] = "Pistol Grip w/ Wire Stock"
--- L["uplp_ks23_stock_grip_stock.compactname"] = "Pist. Wire"
--- L["uplp_ks23_stock_grip_stock.description"] = "Removes the stock from the Pushka-23, replacing it with a regular pistol grip. Also attaches a wire stock to it.\n\nConstruction of said stock might not be up to code, but who are we to judge?"
+/////////// Обвесы
+////// Стволы
+L["uplp_ks23_bar_short.printname"] = "Компактный ствол"
+L["uplp_ks23_bar_short.compactname"] = "Компакт"
+L["uplp_ks23_bar_short.description"] = "Укороченный ствол для КС-23.\nПоставляется с трубкой на <color=255,100,100>4 патрона</color>."
 
-////// Ammo
--- L["uplp_ks23_shell_buck.printname"] = "\"Oskolok\" Buckshot Rounds"
--- L["uplp_ks23_shell_buck.compactname"] = "Oskolok"
+L["uplp_ks23_bar_ext.printname"] = "Удлинённая трубка"
+L["uplp_ks23_bar_ext.compactname"] = "Удлин."
+L["uplp_ks23_bar_ext.description"] = "Заводской ствол с удлинённой <color=100,255,100>5-патронной</color> трубкой."
 
--- L["uplp_ks23_shell_slug.printname"] = "\"Okhotnik\" Slug Rounds"
--- L["uplp_ks23_shell_slug.compactname"] = "Okhotnik"
+L["uplp_ks23_bar_sniper.printname"] = "Снайперский ствол"
+L["uplp_ks23_bar_sniper.compactname"] = "Снайпер"
+L["uplp_ks23_bar_sniper.description"] = "Длинный ствол для КС-23.\nПоставляется с трубкой на <color=100,255,100>4 патрона</color>."
 
--- L["uplp_ks23_shell_flash.printname"] = "\"Zvezda\" Flash Rounds"
--- L["uplp_ks23_shell_flash.compactname"] = "Zvezda"
--- L["uplp_ks23_shell_flash.description"] = "Shotshells loaded with a unique compound that creates a blinding flash when shot.\n\nNote: Does not actually fire any <color=255,100,100>damaging projectile</color>."
+////// Приклад
+L["uplp_ks23_stock_grip.printname"] = "Пистолетная рукоятка"
+L["uplp_ks23_stock_grip.compactname"] = "Пист."
+L["uplp_ks23_stock_grip.description"] = "Удаляет приклад с КС-23, заменяя его на обычную пистолетную рукоятку.\n\nНе рекомендуется к использованию, так как может привести к перелому запястья."
 
--- L["uplp_ks23_shell_rubber.printname"] = "\"Privet\" Buckshot Rounds"
--- L["uplp_ks23_shell_rubber.compactname"] = "Privet"
--- L["uplp_ks23_shell_rubber.description"] = "Riot control shotshells loaded with a single rubber projectile."
+L["uplp_ks23_stock_grip_stock.printname"] = "Пистолетная рукоятка с проволочным прикладом"
+L["uplp_ks23_stock_grip_stock.compactname"] = "Пист. Провол."
+L["uplp_ks23_stock_grip_stock.description"] = "Удаляет приклад с КС-23, заменяя его на обычную пистолетную рукоятку. Также прикрепляет проволочный приклад.\n\nКонструкция такого приклада может не соответствовать стандартам, но кто мы такие, чтобы судить?"
+
+////// Патроны
+L["uplp_ks23_shell_buck.printname"] = "Картечь \"Осколок\""
+L["uplp_ks23_shell_buck.compactname"] = "Осколок"
+
+L["uplp_ks23_shell_slug.printname"] = "Свинцовые пули \"Охотник\""
+L["uplp_ks23_shell_slug.compactname"] = "Охотник"
+
+L["uplp_ks23_shell_flash.printname"] = "Светошумовые патроны \"Звезда\""
+L["uplp_ks23_shell_flash.compactname"] = "Звезда"
+L["uplp_ks23_shell_flash.description"] = "Патроны, снаряжённые уникальным составом, который при выстреле создаёт ослепляющую вспышку.\n\n<color=255,255,50>Примечание</color>: не содержит поражающего элемента."
+L["uplp_ks23_shell_flash.pro"] = "Цель будет ослеплена"
+
+L["uplp_ks23_shell_rubber.printname"] = "Резиновая картечь \"Привет\""
+L["uplp_ks23_shell_rubber.compactname"] = "Привет"
+L["uplp_ks23_shell_rubber.description"] = "Патроны для разгона толпы, снаряжённые одним резиновым снарядом.\n\nС возвращением, Urban с \"БАТОННЫМИ\" патронами"
+L["uplp_ks23_shell_rubber.pro"] = "Цель может выронить свое оружие"
 
 //////////////////// H&K G36
--- L["uplp_weapon_g36"] = "STG-95"
--- L["uplp_weapon_g36_desc"] = "The STG-95 (\"Sturmgewehr 95\"), a select-fire assault rifle, is renowned for its modular design and reliability, offering both semi-automatic and fully automatic firing modes. It is favored by various military and law enforcement units worldwide for its accuracy and versatility in a wide range of combat scenarios."
+L["uplp_weapon_g36"] = "STG-95"
 
--- L["uplp_weapon_g36_sl8"] = "ZJG-98" -- "Ziviles Jagdgewehr"
+L["uplp_weapon_g36_desc"] = "STG-95 (от \"Sturmgewehr 95\") — штурмовая винтовка с возможностью выбора режима огня, известная своей модульной конструкцией и надёжностью. Поддерживает как полуавтоматический, так и автоматический режимы стрельбы. Используется различными военными и правоохранительными подразделениями по всему миру благодаря точности и универсальности в различных боевых сценариях."
 
--- L["uplp_weapon_g36_real"] = "H&K G36"
+L["uplp_weapon_g36_sl8"] = "ZJG-98 — \"Ziviles Jagdgewehr\""
 
--- L["uplp_weapon_g36_manufacturer"] = "Heckler & Koch GmbH"
+L["uplp_weapon_g36_real"] = "H&K G36"
 
-/////////// Attachments
-////// Stocks
--- L["uplp_g36_stock_sl8.printname"] = "ZJG-98 Frame"
--- L["uplp_g36_stock_sl8.compactname"] = "ZJG-98"
--- L["uplp_g36_stock_sl8.description"] = "Swaps out the exteriour of the STG-95 with the civilian ZJG-98, a <color=255,100,100>semi-auto only</color> version."
+L["uplp_weapon_g36_manufacturer"] = "Heckler & Koch GmbH"
 
--- L["uplp_g36_stock_idz.printname"] = "Ravenforce Tactical Stock"
--- L["uplp_g36_stock_idz.compactname"] = "Ravenforge"
--- L["uplp_g36_stock_idz.description"] = "Aftermarket stock made by Ravenforce for the STG-95."
+/////////// Обвесы
+////// Приклады
+L["uplp_g36_stock_sl8.printname"] = "Рама ZJG-98"
+L["uplp_g36_stock_sl8.compactname"] = "ZJG-98"
+L["uplp_g36_stock_sl8.description"] = "Заменяет внешний вид STG-95 на гражданскую версию ZJG-98, которая поддерживает только <color=255,100,100>полуавтоматический</color> режим стрельбы."
 
--- L["uplp_g36_stock_default.printname"] = "STG-95 Factory Stock"
--- L["uplp_g36_stock_default.compactname"] = "STG-95"
--- L["uplp_g36_stock_default.description"] = "Factory stock for the STG-95."
+L["uplp_g36_stock_idz.printname"] = "Тактический приклад Ravenforce"
+L["uplp_g36_stock_idz.compactname"] = "Ravenforce"
+L["uplp_g36_stock_idz.description"] = "Послепродажный приклад от Ravenforce для STG-95."
 
--- L["uplp_g36_stock_buffer.description"] = "Aftermarket buffer tube assembly compatible with the STG-95. Allows installation of AR-15 compatible stocks."
+L["uplp_g36_stock_default.printname"] = "Заводской приклад STG‑95"
+L["uplp_g36_stock_default.compactname"] = "STG‑95"
+L["uplp_g36_stock_default.description"] = "Заводской приклад для STG‑95."
 
-////// Top Rails
--- L["uplp_g36_top_c.printname"] = "STG-95C Top Rail"
--- L["uplp_g36_top_c.compactname"] = "STG-95C"
--- L["uplp_g36_top_c.description"] = "Top rail for mounting scopes, used on the STG-95C."
+L["uplp_g36_stock_buffer.description"] = "Послепродажный комплект буферной трубки, совместимый с STG‑95. Позволяет устанавливать приклады, совместимые с AR‑15."
 
--- L["uplp_g36_top_scope.printname"] = "STG-95 Zielfernrohr"
--- L["uplp_g36_top_scope.compactname"] = "Scope"
--- L["uplp_g36_top_scope.description"] = "Factory-made optic made specifically for the STG-95."
+////// Верхние планки
+L["uplp_g36_top_c.printname"] = "Верхняя планка STG‑95C"
+L["uplp_g36_top_c.compactname"] = "STG‑95C"
+L["uplp_g36_top_c.description"] = "Верхняя планка для установки прицелов, используемая на STG‑95C."
 
--- L["uplp_g36_top_scope_rds.printname"] = "STG-95 Rotpunktvisier"
--- L["uplp_g36_top_scope_rds.compactname"] = "RDS"
--- L["uplp_g36_top_scope_rds.description"] = "Factory-made red dot sight made to be attached on top of the STG-95 scope."
+L["uplp_g36_top_scope.printname"] = "Оптический прицел STG‑95 (Zielfernrohr)"
+L["uplp_g36_top_scope.compactname"] = "Прицел"
+L["uplp_g36_top_scope.description"] = "Заводской оптический прицел, разработанный специально для STG‑95."
 
--- L["uplp_g36_top_sl8.printname"] = "ZJG-98 Top Rail"
--- L["uplp_g36_top_sl8.compactname"] = "ZJG-98"
--- L["uplp_g36_top_sl8.description"] = "Top rail for mounting scopes, used on the civilian ZJG-98."
+L["uplp_g36_top_scope_rds.printname"] = "Коллиматорный прицел STG‑95 (Rotpunktvisier)"
+L["uplp_g36_top_scope_rds.compactname"] = "КП"
+L["uplp_g36_top_scope_rds.description"] = "Заводской коллиматорный прицел, предназначенный для установки поверх оптического прицела STG‑95."
 
--- L["uplp_g36_top_short.printname"] = "Ravenforge Top Rail"
--- L["uplp_g36_top_short.compactname"] = "Ravenforge"
--- L["uplp_g36_top_short.description"] = "Shortened top rail made by Ravenforge."
+L["uplp_g36_top_sl8.printname"] = "Верхняя планка ZJG‑98"
+L["uplp_g36_top_sl8.compactname"] = "ZJG‑98"
+L["uplp_g36_top_sl8.description"] = "Верхняя планка для установки прицелов, используемая на гражданской модели ZJG‑98."
 
--- L["uplp_g36_top_modern.printname"] = "Sentinel Precision Top Rail"
--- L["uplp_g36_top_modern.compactname"] = "S.P."
--- L["uplp_g36_top_modern.description"] = "Slim top rail made by Sentinel Precision. Comes with foldable iron sights."
+L["uplp_g36_top_short.printname"] = "Верхняя планка Ravenforge"
+L["uplp_g36_top_short.compactname"] = "Ravenforge"
+L["uplp_g36_top_short.description"] = "Укороченная верхняя планка производства Ravenforge."
 
-////// Frontends
--- L["uplp_g36_hg_c.printname"] = "STG-95C Frontend"
--- L["uplp_g36_hg_c.compactname"] = "STG-95C"
--- L["uplp_g36_hg_c.description"] = "228mm (9\") barrel and handguard from the STG-95C."
+L["uplp_g36_top_modern.printname"] = "Верхняя планка Sentinel Precision"
+L["uplp_g36_top_modern.compactname"] = "S.P."
+L["uplp_g36_top_modern.description"] = "Тонкая верхняя планка от Sentinel Precision. Поставляется со складными механическими прицельными Обвесыми."
 
--- L["uplp_g36_hg_default.printname"] = "STG-95 Frontend"
--- L["uplp_g36_hg_default.compactname"] = "STG-95"
--- L["uplp_g36_hg_default.description"] = "318mm (12.5\") barrel and handguard from the STG-95."
+////// Передние части (цевья со стволами)
+L["uplp_g36_hg_c.printname"] = "Передняя часть STG‑95C"
+L["uplp_g36_hg_c.compactname"] = "STG‑95C"
+L["uplp_g36_hg_c.description"] = "Ствол длиной 228 мм (9 дюймов) и цевьё от STG‑95C."
 
--- L["uplp_g36_hg_k.printname"] = "STG-95K Frontend"
--- L["uplp_g36_hg_k.compactname"] = "STG-95K"
--- L["uplp_g36_hg_k.description"] = "318mm (12.5\") barrel and handguard from the STG-95K."
+L["uplp_g36_hg_default.printname"] = "Передняя часть STG‑95"
+L["uplp_g36_hg_default.compactname"] = "STG‑95"
+L["uplp_g36_hg_default.description"] = "Ствол длиной 480 мм (18,9 дюйма) и цевьё от STG‑95."
 
--- L["uplp_g36_hg_sl8.printname"] = "ZJG-98 Frontend"
--- L["uplp_g36_hg_sl8.compactname"] = "ZJG-98"
--- L["uplp_g36_hg_sl8.description"] = "510mm (20.1\") barrel and handguard from the ZJG-98.\nDoes not support <color=255,100,100>muzzle attachments</color>."
+L["uplp_g36_hg_sl8.printname"] = "Передняя часть ZJG‑98"
+L["uplp_g36_hg_sl8.compactname"] = "ZJG‑98"
+L["uplp_g36_hg_sl8.description"] = "Ствол длиной 510 мм (20,1 дюйма) и цевьё от ZJG‑98.\nНе поддерживает <color=255,100,100>дульные устройства</color>."
 
--- L["uplp_g36_hg_keymod.printname"] = "Ravenforge Frontend"
--- L["uplp_g36_hg_keymod.compactname"] = "Ravenforge"
--- L["uplp_g36_hg_keymod.description"] = "318mm (12.5\") barrel with an aftermarket handguard from Ravenforge."
+L["uplp_g36_hg_modern.printname"] = "Передняя часть STG‑95 от Sentinel Precision"
+L["uplp_g36_hg_modern.compactname"] = "S.P. STG‑95"
+L["uplp_g36_hg_modern.description"] = "Ствол длиной 318 мм (12,5 дюйма) с aftermarket‑цевьём от Ravenforge."
 
--- L["uplp_g36_hg_modern.printname"] = "Sentinel Precision STG-95 Frontend"
--- L["uplp_g36_hg_modern.compactname"] = "S.P. STG-95"
--- L["uplp_g36_hg_modern.description"] = "318mm (12.5\") barrel with an aftermarket handguard from Ravenforge."
+L["uplp_g36_hg_modern_short.printname"] = "Передняя часть STG‑95C от Sentinel Precision"
+L["uplp_g36_hg_modern_short.compactname"] = "S.P. STG‑95C"
+L["uplp_g36_hg_modern_short.description"] = "Ствол длиной 228 мм (9 дюймов) с aftermarket‑цевьём от Ravenforge."
 
--- L["uplp_g36_hg_modern_short.printname"] = "Sentinel Precision STG-95C Frontend"
--- L["uplp_g36_hg_modern_short.compactname"] = "S.P. STG-95C"
--- L["uplp_g36_hg_modern_short.description"] = "228mm (9\") barrel with an aftermarket handguard from Ravenforge."
+L["uplp_g36_hg_modern_long.printname"] = "Передняя часть MG‑95 от Sentinel Precision"
+L["uplp_g36_hg_modern_long.compactname"] = "S.P. MG‑95"
+L["uplp_g36_hg_modern_long.description"] = "Ствол длиной 480 мм (18,9 дюйма) с aftermarket‑цевьём от Ravenforge."
 
--- L["uplp_g36_hg_modern_long.printname"] = "Sentinel Precision MG-95 Frontend"
--- L["uplp_g36_hg_modern_long.compactname"] = "S.P. MG-95"
--- L["uplp_g36_hg_modern_long.description"] = "480mm (18.9\") barrel with an aftermarket handguard from Ravenforge."
+////// Магазины
+L["uplp_g36_mag_10.printname"] = "Магазин на 10 патронов 5.56×45 мм"
+L["uplp_g36_mag_10.compactname"] = "10п 5.56"
+L["uplp_g36_mag_10.description"] = "Короткий магазин на 10 патронов, созданный для STG‑95."
 
-////// Magazines
--- L["uplp_g36_mag_10.printname"] = "10-Round 5.56×45mm"
--- L["uplp_g36_mag_10.compactname"] = "10R 5.56"
--- L["uplp_g36_mag_10.description"] = "Short 10-round magazine made for the STG-95."
+L["uplp_g36_mag_30.printname"] = "Магазин на 30 патронов 5.56×45 мм"
+L["uplp_g36_mag_30.compactname"] = "30R 5.56"
+L["uplp_g36_mag_30.description"] = "Прозрачная версия стандартного 30‑зарядного магазина для STG‑95."
 
--- L["uplp_g36_mag_30_transparent.printname"] = "30-Round 5.56×45mm"
--- L["uplp_g36_mag_30_transparent.compactname"] = "30R 5.56"
--- L["uplp_g36_mag_30_transparent.description"] = "Transparent version of the STG-95's default 30-round magazine."
-
-////// Other
--- L["uplp_g36_bipod.printname"] = "STG-95 Bipod"
--- L["uplp_g36_bipod.compactname"] = "Bipod"
--- L["uplp_g36_bipod.description"] = "Integrated bipod for the STG-95."
+////// Другое
+L["uplp_g36_bipod.printname"] = "Сошки STG‑95"
+L["uplp_g36_bipod.compactname"] = "Сошки"
+L["uplp_g36_bipod.description"] = "Встроенные сошки для STG‑95."
