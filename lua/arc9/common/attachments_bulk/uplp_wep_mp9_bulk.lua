@@ -26,7 +26,7 @@ ATT.SprintToFireTimeAdd = 0.03
 ATT.CustomPros = {
 [ARC9:GetPhrase("uplp_togglestat_extended") .. " - " .. ARC9:GetPhrase("autostat.recoilautocontrol")] = "+20%",
 [ARC9:GetPhrase("uplp_togglestat_extended") .. " - " .. ARC9:GetPhrase("autostat.recoil")] = "-0.25",
-[ARC9:GetPhrase("uplp_togglestat_extended") .. " - " .. string.format( ARC9:GetPhrase("autostat.secondary.sights"), ARC9:GetPhrase("autostat.sway") )] = "-1",
+--[ARC9:GetPhrase("uplp_togglestat_extended") .. " - " .. string.format( ARC9:GetPhrase("autostat.secondary.sights"), ARC9:GetPhrase("autostat.sway") )] = "-1",
 }
 
 ATT.CustomCons = {
@@ -39,7 +39,7 @@ ATT.ToggleStats = {
         AimDownSightsTimeAdd = 0.03,
         RecoilAdd = -0.25,
         RecoilAutoControlMult = 1.2,
-        SwayAddSights = -1,
+        --SwayAddSights = -1,
     },
     {
         PrintName = ARC9:GetPhrase("uplp_togglestat_folded"),
@@ -68,7 +68,7 @@ ATT.MenuCategory = "ARC9 - Poly Arms Attachments"
 ATT.ActivateElements = {"uplp_mp9_stock_full"}
 
 -- -- Positives
-ATT.SwayAddSights = -1
+--ATT.SwayAddSights = -1
 ATT.RecoilAdd = -0.5
 ATT.RecoilAutoControlMult = 1.1
 
@@ -97,7 +97,7 @@ ATT.MenuCategory = "ARC9 - Poly Arms Attachments"
 ATT.ActivateElements = {"uplp_mp9_stock_tac"}
 
 -- -- Positives
-ATT.SwayAddSights = -1
+--ATT.SwayAddSights = -1
 ATT.RecoilAdd = -0.35
 ATT.RecoilAutoControlMult = 1.35
 
@@ -293,6 +293,7 @@ ATT.MenuCategory = "ARC9 - Poly Arms Attachments"
 -- -- Positives
 ATT.SpreadAddRecoil = -0.006
 ATT.RangeMinAdd = 2 / ARC9.HUToM
+ATT.ShootVolumeMult = 0.7
 
 -- Negatives
 ATT.SpreadAddHipFire = 0.002
@@ -337,6 +338,7 @@ ATT.SpreadAddRecoil = -0.01
 ATT.RangeMinAdd = 3 / ARC9.HUToM
 ATT.RangeMaxAdd = 6 / ARC9.HUToM
 ATT.SpeedMultShooting = 1.1
+ATT.ShootVolumeMult = 0.7
 
 -- Negatives
 ATT.RecoilSideMult = 1.15

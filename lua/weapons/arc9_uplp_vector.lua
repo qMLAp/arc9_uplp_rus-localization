@@ -90,7 +90,7 @@ SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
 ---- Weapon Stats and Behaviour
 -- Damage
 SWEP.DamageMax = 14
-SWEP.DamageMin = 6
+SWEP.DamageMin = 5
 SWEP.DamageType = DMG_BULLET
 
 SWEP.BodyDamageMults = {
@@ -107,7 +107,7 @@ SWEP.Penetration = 12 -- Units of wood that can be penetrated
 SWEP.ImpactForce = 3 -- How much kick things will have when hit
 
 -- Range
-SWEP.RangeMin = 8 / ARC9.HUToM
+SWEP.RangeMin = 5 / ARC9.HUToM
 SWEP.RangeMax = 45 / ARC9.HUToM
 
 -- Physical Bullets
@@ -122,17 +122,17 @@ SWEP.ChamberSize = 1
 SWEP.ClipSize = 30
 
 -- Recoil
-SWEP.Recoil = 1.5
-SWEP.RecoilUp = 1
-SWEP.RecoilSide = 1
+SWEP.Recoil = 1
+SWEP.RecoilUp = -0.25 -- something about fancy recoil absorption tech
+SWEP.RecoilSide = 6
 
-SWEP.RecoilRandomUp = 0.6
-SWEP.RecoilRandomSide = 0.6
+SWEP.RecoilRandomUp = -0.25
+SWEP.RecoilRandomSide = 1
 
 SWEP.RecoilRise = 0
 SWEP.MaxRecoilBlowback = 0
 SWEP.RecoilPunch = 0
-SWEP.RecoilAutoControl = 1.5
+SWEP.RecoilAutoControl = 1.25
 
 SWEP.RecoilMultSights = 0.75
 SWEP.RecoilMultCrouch = 0.85
@@ -158,28 +158,29 @@ SWEP.VisualRecoilDampingConstHipFire = 45
 SWEP.VisualRecoilPositionBumpUpHipFire = .5
 
 -- Accuracy and Spread
-SWEP.Spread = 0.008
+SWEP.Spread = 0.01
 SWEP.SpreadAddHipFire = 0.01
 
-SWEP.SpreadAddRecoil = 0.012
+SWEP.SpreadAddRecoil = 0.015
 SWEP.SpreadAddMove = 0.006
 SWEP.SpreadAddMidAir = 0.05
 
 SWEP.SpreadMultSights = 1
 SWEP.SpreadMultMove = 1
 
-SWEP.RecoilDissipationRate = 8
-SWEP.RecoilResetTime = 0.015
-SWEP.RecoilPerShot = 1 / 5
+SWEP.RecoilDissipationRate = 5
+SWEP.RecoilResetTime = 0.014
+SWEP.RecoilPerShot = 1 / 4
 
 SWEP.RecoilMax = 1
 SWEP.RecoilModifierCap = 1
 SWEP.RecoilModifierCapSights = 1
 
 SWEP.RecoilPerShotMultSights = 0.75
+SWEP.RecoilPerShotMultFirstShot = 0.5
 
 -- Intensify recoil-induced spread when hipfiring; as a fraction of SpreadAddHipFire
-SWEP.HipfireBloomAmplification = 0.75
+SWEP.HipfireBloomAmplification = 0.5
 
 -- Weapon handling
 SWEP.SpeedMult = 0.99 -- Walk speed multiplier
@@ -201,15 +202,17 @@ SWEP.Num = 1 -- How many bullets shot at once
 SWEP.Firemodes = {
     { Mode = -1, -- Full
     PoseParam = 1 },
-    { Mode = 3, -- 3-Shot
+    { Mode = 2, -- 2-Shot
     RunawayBurst = true,
-    RecoilAutoControlMult = 2,
-    PostBurstDelay = 0.1,
+    RecoilAutoControlMult = 1.5,
+    PostBurstDelay = 0.06,
+    RecoilResetTime = 0,
     PoseParam = 1.5 },
     { Mode = 1, -- Semi
     RPM = 777,
     PoseParam = 2 },
 }
+
 
 SWEP.ShootPitch = 100
 SWEP.ShootVolume = 120
@@ -256,8 +259,8 @@ SWEP.CustomizeSnapshotPos = Vector(0, 20, 0)
 SWEP.CustomizeSnapshotFOV = 60
 
 -- Dropped Magazine
-SWEP.ShouldDropMag = false 
-SWEP.ShouldDropMagEmpty = false 
+SWEP.ShouldDropMag = false
+SWEP.ShouldDropMagEmpty = false
 SWEP.DropMagazineModel = "models/weapons/arc9/uplp/vector_mag_33.mdl"
 SWEP.DropMagazineTime = 1
 SWEP.DropMagazineQCA = 4
@@ -389,7 +392,7 @@ local thetoggle = {{
 SWEP.Hook_TranslateAnimation = function(swep, anim)
     if anim == "draw" or anim == "draw_empty" then
         local eles = swep:GetElements()
-        if eles["uplp_vector_stock_buffer"] or eles["uplp_vector_stock_awp"] or eles["uplp_foldedstock"] then
+        if !eles["uplp_foldedstockout"] then
             return anim .. "_alt"
         end
     end
@@ -777,7 +780,7 @@ SWEP.Animations = {
     ["dryfire_empty"] = {
         Source = "modeswitch_empty",
     },
-    
+
     ["firemode_1"] = {
         Source = "firemode_1",
         EventTable = {
@@ -806,7 +809,7 @@ SWEP.Animations = {
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 7 / 30, c = ca, v = 0.8 },
         },
     },
-    
+
     ["firemode_1_empty"] = {
         Source = "firemode_1_empty",
         EventTable = {
@@ -857,43 +860,43 @@ end
 
 SWEP.AttachmentElements = {
     -- MUZZLES
-    ["uplp_vector_barrel_short"] = { Bodygroups={ { 2, 1 } }, AttPosMods = {
+    ["uplp_vector_barrel_short"] = { Bodygroups = { { 2, 1 } }, AttPosMods = {
         [3] = { Pos = Vector(0, -0.5, 6.5)},
         [4] = { Pos = Vector(0, 0.1, 0)},
         [6] = { Pos = Vector(0, -1.21, 8.0)},
     }},
-    ["uplp_vector_barrel_mid"] = { Bodygroups={ { 2, 2 } }, AttPosMods = {
+    ["uplp_vector_barrel_mid"] = { Bodygroups = { { 2, 2 } }, AttPosMods = {
         [3] = { Pos = Vector(0, -0.5, 7.25)},
         [4] = { Pos = Vector(0.08, -1.2, 3)},
         [6] = { Pos = Vector(0, -1.21, 10.22)},
     }},
-    ["uplp_vector_barrel_sup"] = { Bodygroups={ { 2, 3 } }, AttPosMods = {
+    ["uplp_vector_barrel_sup"] = { Bodygroups = { { 2, 3 } }, AttPosMods = {
         [3] = { Pos = Vector(0, -0.5, 7.25)},
         [4] = { Pos = Vector(-0.07, 0.1, 5)},
     }},
-    ["uplp_vector_barrel_long"] = { Bodygroups={ { 2, 4 } }, AttPosMods = {
+    ["uplp_vector_barrel_long"] = { Bodygroups = { { 2, 4 } }, AttPosMods = {
         [4] = { Pos = Vector(-0.07, 0.1, 5)},
         [6] = { Pos = Vector(0, -1.21, 15.0)},
     }},
 
     -- STOCKS
-    ["uplp_vector_stock_def"] = { Bodygroups={ { 3, 1 } } },
-    ["uplp_foldedstock"] = { Bodygroups={ { 3, 2 } } },
-    ["uplp_vector_stock_awp"] = { Bodygroups={ { 3, 3 } } },
-    ["uplp_vector_stock_buffer"] = { Bodygroups={ { 3, 4 } } },
+    ["uplp_vector_stock_def"] = { Bodygroups = { { 3, 1 } } },
+    ["uplp_foldedstock"] = { Bodygroups = { { 3, 2 } } },
+    ["uplp_vector_stock_awp"] = { Bodygroups = { { 3, 3 } } },
+    ["uplp_vector_stock_buffer"] = { Bodygroups = { { 3, 4 } } },
 
     -- MAGAZINES
-    ["uplp_vector_mag_13"] = { Bodygroups={ { 4, 1 }, { 5, 1 } } },
-    ["uplp_vector_mag_17"] = { Bodygroups={ { 4, 1 } } },
-    ["uplp_vector_mag_50"] = { Bodygroups={ { 4, 2 } } },
-    ["uplp_vector_mag_30"] = { Bodygroups={ { 4, 3 }, { 5, 1 } } },
-    
+    ["uplp_vector_mag_13"] = { Bodygroups = { { 4, 1 }, { 5, 1 } } },
+    ["uplp_vector_mag_17"] = { Bodygroups = { { 4, 1 } } },
+    ["uplp_vector_mag_50"] = { Bodygroups = { { 4, 2 } } },
+    ["uplp_vector_mag_30"] = { Bodygroups = { { 4, 3 }, { 5, 1 } } },
+
     -- OTHER
-    ["uplp_vector_skin_blk"] = { Bodygroups={ { 1, 1 } } },
-    ["uplp_vector_skin_tan"] = { Bodygroups={ { 1, 2 } } },
-    ["uplp_vector_skin_orange"] = { Bodygroups={ { 1, 3 } } },
-    ["uplp_vector_skin_purple"] = { Bodygroups={ { 1, 4 } } },
-    ["uplp_vector_skin_red"] = { Bodygroups={ { 1, 5 } } },
+    ["uplp_vector_skin_blk"] = { Bodygroups = { { 1, 1 } } },
+    ["uplp_vector_skin_tan"] = { Bodygroups = { { 1, 2 } } },
+    ["uplp_vector_skin_orange"] = { Bodygroups = { { 1, 3 } } },
+    ["uplp_vector_skin_purple"] = { Bodygroups = { { 1, 4 } } },
+    ["uplp_vector_skin_red"] = { Bodygroups = { { 1, 5 } } },
 }
 
 local defatt = "arc9/def_att_icons/"
