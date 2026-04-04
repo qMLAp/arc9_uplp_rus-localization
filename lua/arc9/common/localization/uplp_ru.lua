@@ -3528,3 +3528,78 @@ local sr25brll = {
 -- L["uplp_g36_bipod.printname"] = "STG-95 Bipod"
 -- L["uplp_g36_bipod.compactname"] = "Bipod"
 -- L["uplp_g36_bipod.description"] = "Integrated bipod for the STG-95."
+
+//////////////////// Kriss Vector
+-- L["uplp_weapon_vector"] = "Serval SMG"
+-- L["uplp_weapon_vector_desc"] = "The Serval SMG is a compact submachine gun known for its distinctive futuristic design and unconventional recoil mitigation system that redirects energy downward rather than straight back. This design helps improve control during rapid fire, making it especially notable for its stability and reduced muzzle climb compared to traditional SMGs."
+
+-- L["uplp_weapon_vector_real"] = "KRISS Vector"
+
+-- L["uplp_weapon_vector_45acp"] = "Serval .45 SMG"
+
+-- L["uplp_weapon_vector_manufacturer"] = "KRISS USA"
+
+/////////// Attachments
+////// Barrels
+-- L["uplp_vector_barrel_short.printname"] = "Centurion Industries Frontend"
+-- L["uplp_vector_barrel_short.compactname"] = "C.I."
+-- L["uplp_vector_barrel_short.description"] = "Shortened barrel for the Serval SMG made by Centurion Industries."
+
+-- L["uplp_vector_barrel_mid.printname"] = "Lisyan Tactical Model II-3 Frontend"
+-- L["uplp_vector_barrel_mid.compactname"] = "L.T. II-3"
+-- L["uplp_vector_barrel_mid.description"] = "Medium-length barrel and handguard for the Serval SMG made by Lisyan Tactical."
+
+-- L["uplp_vector_barrel_sup.printname"] = "Ghost Frontend"
+-- L["uplp_vector_barrel_sup.compactname"] = "Ghost"
+-- L["uplp_vector_barrel_sup.description"] = "Aftermarket long handguard with integral suppressor for the Serval SMG."
+
+-- L["uplp_vector_barrel_long.printname"] = "Hoki Armory Frontend"
+-- L["uplp_vector_barrel_long.compactname"] = "H.A."
+-- L["uplp_vector_barrel_long.description"] = "Long barrel and handguard for the Serval SMG, manufactured by Hoki Armory."
+
+////// Stocks
+-- L["uplp_vector_stock_def.printname"] = "Foldable Stock"
+-- L["uplp_vector_stock_def.compactname"] = "Fold."
+-- L["uplp_vector_stock_def.description"] = "Factory-built foldable stock made for the Serval SMG."
+
+-- L["uplp_vector_stock_buffer.description"] = "Aftermarket buffer tube assembly compatible with the Serval SMG. Allows installation of AR-15 compatible stocks."
+
+-- L["uplp_vector_stock_awp.description"] = "Heavy stock for the Serval SMG made by ApexCore Systems."
+
+////// Mags
+-- L["uplp_vector_mag_33.printname"] = "33-Round 9×19"
+-- L["uplp_vector_mag_33.compactname"] = "33R 9×19"
+-- L["uplp_vector_mag_33.description"] = "Extended 33-round magazine from a well-known Austrian handgun, chambered in 9×19mm."
+
+-- L["uplp_vector_mag_50.printname"] = "50-Round 9×19 Drum"
+-- L["uplp_vector_mag_50.compactname"] = "50R 9×19"
+-- L["uplp_vector_mag_50.description"] = "Aftermarket 50-round drum magazine from a well-known Austrian handgun, chambered in 9×19mm."
+
+-- L["uplp_vector_mag_17.printname"] = "17-Round 9×19"
+-- L["uplp_vector_mag_17.compactname"] = "17R 9×19"
+-- L["uplp_vector_mag_17.description"] = "17-round magazine from a well-known Austrian handgun, chambered in 9×19mm."
+
+-- L["uplp_vector_mag_13.printname"] = "13-Round .45 ACP"
+-- L["uplp_vector_mag_13.compactname"] = "13R .45"
+-- L["uplp_vector_mag_13.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a shortened 13-round magazine.\n\nRestricted to <color=255,100,100>3-round burst</color>."
+
+-- L["uplp_vector_mag_30.printname"] = "30-Round .45 ACP"
+-- L["uplp_vector_mag_30.compactname"] = "30R .45"
+-- L["uplp_vector_mag_30.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a 30-round magazine.\n\nExclusive to <color=255,255,100>Admin only</color>."
+
+////// Receivers
+-- L["uplp_vector_skin_blk.printname"] = "Black Receiver"
+-- L["uplp_vector_skin_blk.compactname"] = "Black"
+-- L["uplp_vector_skin_blk.description"] = "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+
+-- L["uplp_vector_skin_tan.printname"] = "Desert Tan Receiver"
+-- L["uplp_vector_skin_tan.compactname"] = "Tan"
+
+-- L["uplp_vector_skin_purple.printname"] = "Party Purple Receiver"
+-- L["uplp_vector_skin_purple.compactname"] = "Purple"
+
+-- L["uplp_vector_skin_red.printname"] = "Sporty Red Receiver"
+-- L["uplp_vector_skin_red.compactname"] = "Red"
+
+-- L["uplp_vector_skin_orange.printname"] = "Hunter Orange Receiver"
+-- L["uplp_vector_skin_orange.compactname"] = "Orange"
