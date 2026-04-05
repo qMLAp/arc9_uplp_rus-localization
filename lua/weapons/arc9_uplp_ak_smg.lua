@@ -260,11 +260,11 @@ SWEP.CustomizeSnapshotFOV = 60
 SWEP.ShouldDropMag = true
 SWEP.ShouldDropMagEmpty = true
 SWEP.DropMagazineModel = "models/weapons/arc9/uplp/ak_mag_919.mdl"
-SWEP.DropMagazineTime = 1.1825
+SWEP.DropMagazineTime = 21/30
 SWEP.DropMagazineQCA = 4
 SWEP.DropMagazinePos = Vector(0, -0.7, 0)
 SWEP.DropMagazineAng = Angle(90, 90, 90)
-SWEP.DropMagazineVelocity = Vector(0, 0, 20)
+SWEP.DropMagazineVelocity = Vector(0, -50, 0)
 
 ---- Sounds
 
@@ -495,25 +495,25 @@ SWEP.Animations = {
 		PeekProgress = 0.865,
 		RefillProgress = 0.7,
 		FireASAP = true,
-        Mult = 0.9,
+        Mult = 1,
         EventTable = {
             { s = pathUTC .. "magpouch.ogg", t = 0.0, v = 0.6 },
             { s = pathUT .. "reload_start.ogg", t = 0 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_5.ogg", t = 0 / 30, c = ca, v = 0.5 },
             { s = pathUTC .. "movement-smg-04.ogg", t = 13 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "magrelease.ogg", t = 13 / 30, c = ca, v = 0.8 },
-            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 15 / 30, c = ca, v = 0.8 },
-            { s = ")uplp_urban_temp/mp7/magtap.ogg", t = 29 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "magrelease.ogg", t = 10 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 12 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magtap.ogg", t = 27.5 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "movement-rifle-04.ogg", t = 41 / 30, c = ca, v = 0.8 },
             {hide = 2, t = 0},
-            {hide = 0, t = 0.3},
-            {hide = 1, t = 1.1825/0.9}
+            {hide = 0, t = 0.2},
+            {hide = 1, t = 21/30}
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
             { t = 0.15, lhik = 0 },
-            { t = 0.65, lhik = 0 },
-            { t = 0.9, lhik = 1 },
+            { t = 0.72, lhik = 0 },
+            { t = 0.92, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -523,28 +523,28 @@ SWEP.Animations = {
 		PeekProgress = 0.865,
 		RefillProgress = 0.7,
 		FireASAP = true,
-        Mult = 1.075,
+        Mult = 1,
         EventTable = {
             { s = pathUTC .. "magpouch.ogg", t = 0.0, v = 0.6 },
             { s = pathUT .. "reload_start.ogg", t = 0 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_5.ogg", t = 0 / 30, c = ca, v = 0.5 },
-            { s = pathUTC .. "movement-smg-04.ogg", t = 12 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "magrelease.ogg", t = 13 / 30, c = ca, v = 0.8 },
-            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 13 / 30, c = ca, v = 0.8 },
-            { s = ")uplp_urban_temp/mp7/magtap.ogg", t = 23 / 30, c = ca, v = 0.8 },
+            { s = pathUTC .. "movement-smg-04.ogg", t = 13 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "magrelease.ogg", t = 10 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 12 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magtap.ogg", t = 27.5 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "movement-rifle-01.ogg", t = 31 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "chback_9.ogg", t = 34 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "chamber_9.ogg", t = 40 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "chback_9.ogg", t = 39 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "chamber_9.ogg", t = 46 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "movement-rifle-04.ogg", t = 52 / 30, c = ca, v = 0.8 },
             {hide = 2, t = 0},
-            {hide = 0, t = 0.29},
-            {hide = 1, t = 1.1825/1.075}
+            {hide = 0, t = 0.2},
+            {hide = 1, t = 21/30}
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
             { t = 0.15, lhik = 0 },
-            { t = 0.75, lhik = 0 },
-            { t = 0.925, lhik = 1 },
+            { t = 0.82, lhik = 0 },
+            { t = 0.98, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -622,83 +622,90 @@ SWEP.Animations = {
         EventTable = {
             { s = pathUTC .. "cloth_4.ogg", t = 0 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "movement-rifle-03.ogg", t = 5 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "magrelease.ogg", t = 9 / 30, c = ca, v = 0.8 },
-            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 13 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "magrelease.ogg", t = 84 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magout.ogg", t = 87 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_2.ogg", t = 24 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_5.ogg", t = 54 / 30, c = ca, v = 0.65 },
-            { s = pathUTC .. "grab-polymer.ogg", t = 65 / 30, c = ca, v = 0.8 },
+            { s = pathUTC .. "grab-polymer.ogg", t = 65 / 30, c = ca, v = 0.5 },
             { s = pathUTC .. "movement-rifle-02.ogg", t = 93 / 30, c = ca, v = 0.65 },
-            { s = ")uplp_urban_temp/mp7/magin.ogg", t = 108 / 30, c = ca, v = 0.9 },
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 138 / 30, c = ca, v = 0.8 },
+            { s = ")uplp_urban_temp/mp7/magin.ogg", t = 155 / 30, c = ca, v = 0.9 },
+            { s = pathUTC .. "movement-rifle-04.ogg", t = 180 / 30, c = ca, v = 0.8 },
             {hide = 2, t = 0},
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
+            { t = 0.05, lhik = 0 },
             { t = 0.65, lhik = 0 },
             { t = 0.85, lhik = 0 },
             { t = 1, lhik = 1 },
         },
     },
-    ["inspect_look"] = {
-        Source = {"inspect0"},
-        EventTable = {
-            { s = pathUTC .. "cloth_4.ogg", t = 0 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-03.ogg", t = 5 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "cloth_2.ogg", t = 56 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 62 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-02.ogg", t = 110 / 30, c = ca, v = 0.8 },
-            {hide = 1, t = 0},
-        },
-        IKTimeLine = {
-            { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.65, lhik = 0 },
-            { t = 0.85, lhik = 0 },
-            { t = 1, lhik = 1 },
-        },
-    },
+    -- ["inspect_look"] = {
+    --     Source = {"inspect0"},
+    --     EventTable = {
+    --         { s = pathUTC .. "cloth_4.ogg", t = 0 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-03.ogg", t = 5 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "cloth_2.ogg", t = 56 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-04.ogg", t = 62 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-02.ogg", t = 110 / 30, c = ca, v = 0.8 },
+    --         {hide = 1, t = 0},
+    --     },
+    --     IKTimeLine = {
+    --         { t = 0, lhik = 1 },
+    --         { t = 0.15, lhik = 0 },
+    --         { t = 0.65, lhik = 0 },
+    --         { t = 0.85, lhik = 0 },
+    --         { t = 1, lhik = 1 },
+    --     },
+    -- },
 
     ["inspect_bizon"] = {
         Source = {"inspect_bizon"},
         EventTable = {
             { s = pathUTC .. "cloth_5.ogg", t = 0 / 30, c = ca, v = 0.5 },
-            { s = pathUT .. "magrelease.ogg", t = 10 / 30, c = ca, v = 0.7 },
-            { s = pathUT .. "grab.ogg", t = 14 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-02.ogg", t = 18 / 30, c = ca, v = 0.8 },
-            { s = pathUT .. "magin_308.ogg", t = 38 / 30, c = ca, v = 0.65 },
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 61 / 30, c = ca, v = 0.8 },
+            { s = pathUTC .. "movement-rifle-01.ogg", t = 10 / 30, c = ca, v = 0.8 },
+            { s = pathUTC .. "movement-rifle-02.ogg", t = 59 / 30, c = ca, v = 0.8 },
+            { s = pathUT .. "grab.ogg", t = 82 / 30, c = ca, v = 0.25 },
+            { s = pathUTC .. "movement-rifle-03.ogg", t = 125 / 30, c = ca, v = 0.8 },
+
+            -- { s = pathUT .. "magrelease.ogg", t = 10 / 30, c = ca, v = 0.7 },
+            -- { s = pathUT .. "grab.ogg", t = 14 / 30, c = ca, v = 0.8 },
+            -- { s = pathUTC .. "movement-rifle-02.ogg", t = 18 / 30, c = ca, v = 0.8 },
+            -- { s = pathUT .. "presscheck_1.ogg", t = 155 / 30, c = ca, v = 0.2 },
+            { s = ")uplp_rz/mjolnir/chunlock.ogg", t = 155 / 30, c = ca, v = 0.1, p = 80 },
+            { s = ")uplp_rz/ak/struggle.ogg", t = 173 / 30, c = ca, v = 0.35, p = 110 },
+            { s = pathUTC .. "movement-rifle-04.ogg", t = 185 / 30, c = ca, v = 0.8 },
             -- {hide = 1, t = 0},
             -- {hide = 1, t = 1.5},
             -- {hide = 2, t = 1.8},
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
+            { t = 0.05, lhik = 0 },
             { t = 0.65, lhik = 0 },
-            { t = 0.85, lhik = 0 },
+            { t = 0.95, lhik = 0 },
             { t = 1, lhik = 1 },
         },
     },
-    ["inspect_look_bizon"] = {
-        Source = {"inspect0"},
-        EventTable = {
-            { s = pathUTC .. "cloth_4.ogg", t = 0 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-03.ogg", t = 5 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "cloth_2.ogg", t = 56 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 62 / 30, c = ca, v = 0.8 },
-            { s = pathUTC .. "movement-rifle-02.ogg", t = 110 / 30, c = ca, v = 0.8 },
-            -- {hide = 1, t = 0},
-        },
-        IKTimeLine = {
-            { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.65, lhik = 0 },
-            { t = 0.85, lhik = 0 },
-            { t = 0.925, lhik = 1 },
-            { t = 1, lhik = 1 },
-        },
-    },
+    -- ["inspect_look_bizon"] = {
+    --     Source = {"inspect0"},
+    --     EventTable = {
+    --         { s = pathUTC .. "cloth_4.ogg", t = 0 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-03.ogg", t = 5 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "cloth_2.ogg", t = 56 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-04.ogg", t = 62 / 30, c = ca, v = 0.8 },
+    --         { s = pathUTC .. "movement-rifle-02.ogg", t = 110 / 30, c = ca, v = 0.8 },
+    --         -- {hide = 1, t = 0},
+    --     },
+    --     IKTimeLine = {
+    --         { t = 0, lhik = 1 },
+    --         { t = 0.15, lhik = 0 },
+    --         { t = 0.65, lhik = 0 },
+    --         { t = 0.85, lhik = 0 },
+    --         { t = 0.925, lhik = 1 },
+    --         { t = 1, lhik = 1 },
+    --     },
+    -- },
 
     ["firemode_1"] = {
         Source = "firemode_0",
@@ -739,12 +746,12 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
     if !IsFirstTimePredicted() then return end
 
     -- theres some mod for arc9eft that makes mag checks on bind and it manipulates EFTInspectnum value so well keep eft in name to keep functionality
-    if anim == "inspect" or anim == "inspect_empty" then
-        swep.EFTInspectnum = (swep.EFTInspectnum or 0) + 1
-        local rand = swep.EFTInspectnum
-        if rand == 1 then return anim .. "_look" end
-        if rand == 2 then swep.EFTInspectnum = 0 rand = 0 end
-    end
+    -- if anim == "inspect" or anim == "inspect_empty" then
+    --     swep.EFTInspectnum = (swep.EFTInspectnum or 0) + 1
+    --     local rand = swep.EFTInspectnum
+    --     if rand == 1 then return anim .. "_look" end
+    --     if rand == 2 then swep.EFTInspectnum = 0 rand = 0 end
+    -- end
 end
 
 ---- Attachments

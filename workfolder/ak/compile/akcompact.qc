@@ -325,16 +325,16 @@ $sequence "modeswitch" {
 
 
 $sequence "reload_9mm" {
-	"anims\reload_9mm.smd"
-	"anims\reload_iron_9mm.smd"
+	"anims\cylo_9mm_wet.smd"
+	"anims\cylo_ads_9mm_wet.smd"
 	blend "sights" 0 1
 	fps 30
 	"ACT_VM_RELOAD" 1
 	snap
 }
 $sequence "reload_empty_9mm" {
-	"anims\reload_empty_9mm.smd"
-	"anims\reload_empty_iron_9mm.smd"
+	"anims\cylo_9mm_dry.smd"
+	"anims\cylo_ads_9mm_dry.smd"
 	blend "sights" 0 1
 	fps 30
 	"ACT_VM_RELOAD" 1
@@ -369,12 +369,12 @@ $sequence "inspect0" {
 	fps 30
 }
 $sequence "inspect_9mm" {
-	"anims\inspect2_9mm.smd"
+	"anims\cylo_vityaz_inspect.smd"
 	snap
 	fps 30
 }
 $sequence "inspect_bizon" {
-	"anims\inspect2_bizon.smd"
+	"anims\cylo_bizon_inspect.smd"
 	snap
 	fps 30
 }
