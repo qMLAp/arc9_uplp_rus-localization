@@ -1848,8 +1848,8 @@ L["uplp_awp_stock_tube.compactname"] = "Foldable BT"
 L["uplp_awp_stock_tube.description"] = "Standard stock with an attached buffer tube for using AR-15 stocks."
 
 //////////////////// FN57
-L["uplp_weapon_fn57"] = "MRD57"
-L["uplp_weapon_fn57_desc"] = "The MRD57 is a semi-automatic handgun known for its unique chambering in the 5.7×28mm cartridge, originally designed for use in select fire weapons. It features a high-capacity magazine, low recoil, and is prized for its armor-piercing capabilities, making it popular among military and law enforcement units worldwide. The MRD57 in particular is a recently released, improved version of the previous P57 handgun."
+L["uplp_weapon_fn57"] = "MRD67"
+L["uplp_weapon_fn57_desc"] = "The MRD67 is a semi-automatic handgun known for its unique chambering in the 5.7×28mm cartridge, originally designed for use in select fire weapons. It features a high-capacity magazine, low recoil, and is prized for its armor-piercing capabilities, making it popular among military and law enforcement units worldwide. The MRD67 in particular is a recently released, improved version of the previous P57 handgun."
 
 L["uplp_weapon_fn57_real"] = "FN Five-SeveN Mk3 MRD"
 
@@ -1859,12 +1859,12 @@ L["uplp_weapon_fn57_manufacturer"] = "Fabrique Nationale de Herstal"
 ////// Mags
 L["uplp_fn57_mag_ext.printname"] = "27-Round Extended Magazine"
 L["uplp_fn57_mag_ext.compactname"] = "27R Ext."
-L["uplp_fn57_mag_ext.description"] = "Aftermarket 27-round extended magazine for the MRD57."
+L["uplp_fn57_mag_ext.description"] = "Aftermarket 27-round extended magazine for the MRD67."
 
 ////// Trigger
 L["uplp_fn57_trigger_auto.printname"] = "Automatic Action"
 L["uplp_fn57_trigger_auto.compactname"] = "Automatic"
-L["uplp_fn57_trigger_auto.description"] = "Converts the MRD57 to fire in <color=100,255,100>fully automatic</color>, sacrificing recoil control.\n\nTechnically banned by the <color=255,100,100>NFA</color>, but we'll be quiet... this time."
+L["uplp_fn57_trigger_auto.description"] = "Converts the MRD67 to fire in <color=100,255,100>fully automatic</color>, sacrificing recoil control.\n\nTechnically banned by the <color=255,100,100>NFA</color>, but we'll be quiet... this time."
 
 ////// Skins
 L["uplp_fn57_skin_tan_full.printname"] = "Full Tan"
