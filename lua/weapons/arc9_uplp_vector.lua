@@ -66,12 +66,12 @@ SWEP.NoTPIKVMPos = true
 SWEP.WorldModelOffset = {
     Pos = Vector(-3.5, 3, -8),
     Ang = Angle(0, 0, 180),
-    TPIKPos = Vector(-12, 4, -5),
+    TPIKPos = Vector(-14, 4, -3),
     TPIKAng = Angle(-12, -0, 180),
     Scale = 1,
 
-    TPIKPosSightOffset = Vector(1, 2.5, -3),
-    TPIKPosReloadOffset = Vector(-3, 0, 0),
+    TPIKPosSightOffset = Vector(1, 1, -3),
+    TPIKPosReloadOffset = Vector(0, 0, 0),
     TPIKAngReloadOffset = Angle(0, 0, 0),
 }
 
@@ -1103,3 +1103,14 @@ SWEP.Attachments = {
         CosmeticOnly = true
     },
 }
+
+
+SWEP.HookP_NameChange = function(self, name)
+    local att = self:GetElements()
+
+    if att["uplp_vector_mag_30"] or att["uplp_vector_mag_13"] then
+        name = ARC9:GetPhrase("uplp_weapon_vector_45acp")
+    end
+
+    return name
+end
