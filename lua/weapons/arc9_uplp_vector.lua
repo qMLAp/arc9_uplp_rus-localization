@@ -271,6 +271,7 @@ SWEP.DropMagazineVelocity = Vector(0, -100, 0)
 ---- Sounds
 
 -- urbna!
+local pathRZ = ")uplp_rz/vector/"
 local pathUT = ")uplp_urban_temp/mp7/"
 local pathUTREAL = ")uplp_rz/mp7/"
 local pathREALLYREAL = ")uplp_rz/mp9/"
@@ -279,9 +280,9 @@ local pathUTC = ")uplp_urban_temp/common/"
 local pathUT5 = ")uplp_urban_temp/mp5/"
 
 SWEP.ShootSound = {
-    pathREALLYREAL .. "fire-01.wav",
-    pathREALLYREAL .. "fire-02.wav",
-    pathREALLYREAL .. "fire-03.wav",
+    pathRZ .. "fire-01.wav",
+    pathRZ .. "fire-02.wav",
+    pathRZ .. "fire-03.wav",
 }
 
 SWEP.ShootSoundSilenced = {
@@ -365,10 +366,9 @@ SWEP.ReloadHideBoneTables = {
 -- Animations
 
 local mechh = {
-    pathREALLYREAL .. "mech-01.wav",
-    pathREALLYREAL .. "mech-02.wav",
-    pathREALLYREAL .. "mech-03.wav",
-    pathREALLYREAL .. "mech-04.wav",
+    pathRZ .. "mech-01.wav",
+    pathRZ .. "mech-02.wav",
+    pathRZ .. "mech-03.wav",
 }
 
 local UTCrattle = {
