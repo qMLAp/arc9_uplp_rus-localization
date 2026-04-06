@@ -1848,8 +1848,8 @@ L["uplp_awp_stock_tube.compactname"] = "Foldable BT"
 L["uplp_awp_stock_tube.description"] = "Standard stock with an attached buffer tube for using AR-15 stocks."
 
 //////////////////// FN57
-L["uplp_weapon_fn57"] = "MRD57"
-L["uplp_weapon_fn57_desc"] = "The MRD57 is a semi-automatic handgun known for its unique chambering in the 5.7×28mm cartridge, originally designed for use in select fire weapons. It features a high-capacity magazine, low recoil, and is prized for its armor-piercing capabilities, making it popular among military and law enforcement units worldwide. The MRD57 in particular is a recently released, improved version of the previous P57 handgun."
+L["uplp_weapon_fn57"] = "MRD67"
+L["uplp_weapon_fn57_desc"] = "The MRD67 is a semi-automatic handgun known for its unique chambering in the 5.7×28mm cartridge, originally designed for use in select fire weapons. It features a high-capacity magazine, low recoil, and is prized for its armor-piercing capabilities, making it popular among military and law enforcement units worldwide. The MRD67 in particular is a recently released, improved version of the previous P57 handgun."
 
 L["uplp_weapon_fn57_real"] = "FN Five-SeveN Mk3 MRD"
 
@@ -1859,12 +1859,12 @@ L["uplp_weapon_fn57_manufacturer"] = "Fabrique Nationale de Herstal"
 ////// Mags
 L["uplp_fn57_mag_ext.printname"] = "27-Round Extended Magazine"
 L["uplp_fn57_mag_ext.compactname"] = "27R Ext."
-L["uplp_fn57_mag_ext.description"] = "Aftermarket 27-round extended magazine for the MRD57."
+L["uplp_fn57_mag_ext.description"] = "Aftermarket 27-round extended magazine for the MRD67."
 
 ////// Trigger
 L["uplp_fn57_trigger_auto.printname"] = "Automatic Action"
 L["uplp_fn57_trigger_auto.compactname"] = "Automatic"
-L["uplp_fn57_trigger_auto.description"] = "Converts the MRD57 to fire in <color=100,255,100>fully automatic</color>, sacrificing recoil control.\n\nTechnically banned by the <color=255,100,100>NFA</color>, but we'll be quiet... this time."
+L["uplp_fn57_trigger_auto.description"] = "Converts the MRD67 to fire in <color=100,255,100>fully automatic</color>, sacrificing recoil control.\n\nTechnically banned by the <color=255,100,100>NFA</color>, but we'll be quiet... this time."
 
 ////// Skins
 L["uplp_fn57_skin_tan_full.printname"] = "Full Tan"
@@ -3572,45 +3572,45 @@ L["uplp_g36_bipod.compactname"] = "Bipod"
 L["uplp_g36_bipod.description"] = "Integrated bipod for the STG-95."
 
 //////////////////// Kriss Vector
-L["uplp_weapon_vector"] = "Serval SMG"
-L["uplp_weapon_vector_desc"] = "The Serval SMG is a compact submachine gun known for its distinctive futuristic design and unconventional recoil mitigation system that redirects energy downward rather than straight back. This design helps improve control during rapid fire, making it especially notable for its stability and reduced muzzle climb compared to traditional SMGs."
+L["uplp_weapon_vector"] = "Serval GEN2"
+L["uplp_weapon_vector_desc"] = "The Serval GEN2 is a compact submachine gun known for its distinctive futuristic design and unconventional recoil mitigation system that redirects energy downward rather than straight back. This design helps improve control during rapid fire, making it especially notable for its stability and reduced muzzle climb compared to traditional SMGs."
 
 L["uplp_weapon_vector_real"] = "KRISS Vector"
 
-L["uplp_weapon_vector_45acp"] = "Serval .45 SMG"
+L["uplp_weapon_vector_45acp"] = "Serval GEN2 .45"
 
 L["uplp_weapon_vector_manufacturer"] = "KRISS USA"
 
 /////////// Attachments
 ////// Barrels
-L["uplp_vector_barrel_short.printname"] = "Centurion Industries Frontend"
-L["uplp_vector_barrel_short.compactname"] = "C.I."
-L["uplp_vector_barrel_short.description"] = "Shortened barrel for the Serval SMG made by Centurion Industries."
+L["uplp_vector_barrel_short.printname"] = "Standard Short Barrel"
+L["uplp_vector_barrel_short.compactname"] = "Short"
+L["uplp_vector_barrel_short.description"] = "Factory-made short barrel for the Serval GEN2."
 
 L["uplp_vector_barrel_mid.printname"] = "Lisyan Tactical Model II-3 Frontend"
 L["uplp_vector_barrel_mid.compactname"] = "L.T. II-3"
-L["uplp_vector_barrel_mid.description"] = "Medium-length barrel and handguard for the Serval SMG made by Lisyan Tactical."
+L["uplp_vector_barrel_mid.description"] = "Medium-length barrel and handguard for the Serval GEN2 made by Lisyan Tactical."
 
 L["uplp_vector_barrel_sup.printname"] = "Ghost Frontend"
 L["uplp_vector_barrel_sup.compactname"] = "Ghost"
-L["uplp_vector_barrel_sup.description"] = "Aftermarket long handguard with integral suppressor for the Serval SMG."
+L["uplp_vector_barrel_sup.description"] = "Aftermarket long handguard with integral suppressor for the Serval GEN2."
 
 L["uplp_vector_barrel_long.printname"] = "Hoki Armory Frontend"
 L["uplp_vector_barrel_long.compactname"] = "H.A."
-L["uplp_vector_barrel_long.description"] = "Long barrel and handguard for the Serval SMG, manufactured by Hoki Armory."
+L["uplp_vector_barrel_long.description"] = "Long barrel and handguard for the Serval GEN2, manufactured by Hoki Armory."
 
 ////// Stocks
 L["uplp_vector_stock_def.printname"] = "Foldable Stock"
 L["uplp_vector_stock_def.compactname"] = "Fold."
-L["uplp_vector_stock_def.description"] = "Factory-built foldable stock made for the Serval SMG."
+L["uplp_vector_stock_def.description"] = "Factory-built foldable stock made for the Serval GEN2."
 
 L["uplp_vector_stock_buffer.printname"] = ARC9:GetPhrase("uplp_ak_stock_tube12.printname") or "Buffer Tube"
 L["uplp_vector_stock_buffer.compactname"] = ARC9:GetPhrase("uplp_ak_stock_tube12.compactname") or "Buffer"
-L["uplp_vector_stock_buffer.description"] = "Aftermarket buffer tube assembly compatible with the Serval SMG. Allows installation of AR-15 compatible stocks."
+L["uplp_vector_stock_buffer.description"] = "Aftermarket buffer tube assembly compatible with the Serval GEN2. Allows installation of AR-15 compatible stocks."
 
 L["uplp_vector_stock_awp.printname"] = ARC9:GetPhrase("uplp_ar15_stock_veryheavy.printname") or "ApexCore Systems Heavy Stock"
 L["uplp_vector_stock_awp.compactname"] = ARC9:GetPhrase("uplp_ar15_stock_veryheavy.compactname") or "ApexCore"
-L["uplp_vector_stock_awp.description"] = "Heavy stock for the Serval SMG made by ApexCore Systems."
+L["uplp_vector_stock_awp.description"] = "Heavy stock for the Serval GEN2 made by ApexCore Systems."
 
 ////// Mags
 L["uplp_vector_mag_33.printname"] = "33-Round 9×19"
@@ -3627,29 +3627,29 @@ L["uplp_vector_mag_17.description"] = "17-round magazine from a well-known Austr
 
 L["uplp_vector_mag_13.printname"] = "13-Round .45 ACP"
 L["uplp_vector_mag_13.compactname"] = "13R .45"
-L["uplp_vector_mag_13.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a shortened 13-round magazine.\n\nRestricted to <color=255,100,100>3-round burst</color>."
+L["uplp_vector_mag_13.description"] = "Rechambers the Serval GEN2 to .45 ACP, providing it more stopping power. Also provides it with a shortened 13-round magazine.\n\nRestricted to <color=255,100,100>2-round burst</color>."
 
 L["uplp_vector_mag_30.printname"] = "30-Round .45 ACP"
 L["uplp_vector_mag_30.compactname"] = "30R .45"
-L["uplp_vector_mag_30.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a 30-round magazine.\n\nExclusive to <color=255,255,100>Admin only</color>."
+L["uplp_vector_mag_30.description"] = "Rechambers the Serval GEN2 to .45 ACP, providing it more stopping power. Also provides it with a 30-round magazine.\n\nExclusive to <color=255,255,100>Admin only</color>."
 
 ////// Receivers
 L["uplp_vector_skin_blk.printname"] = "Black Receiver"
 L["uplp_vector_skin_blk.compactname"] = "Black"
-L["uplp_vector_skin_blk.description"] = "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_vector_skin_blk.description"] = "Repainted lower receiver for the Serval GEN2.\nPurely <color=160,160,255>cosmetic</color>."
 
 L["uplp_vector_skin_tan.printname"] = "Desert Tan Receiver"
 L["uplp_vector_skin_tan.compactname"] = "Tan"
-L["uplp_vector_skin_tan.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_vector_skin_tan.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval GEN2.\nPurely <color=160,160,255>cosmetic</color>."
 
 L["uplp_vector_skin_purple.printname"] = "Party Purple Receiver"
 L["uplp_vector_skin_purple.compactname"] = "Purple"
-L["uplp_vector_skin_purple.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_vector_skin_purple.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval GEN2.\nPurely <color=160,160,255>cosmetic</color>."
 
 L["uplp_vector_skin_red.printname"] = "Sporty Red Receiver"
 L["uplp_vector_skin_red.compactname"] = "Red"
-L["uplp_vector_skin_red.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_vector_skin_red.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval GEN2.\nPurely <color=160,160,255>cosmetic</color>."
 
 L["uplp_vector_skin_orange.printname"] = "Hunter Orange Receiver"
 L["uplp_vector_skin_orange.compactname"] = "Orange"
-L["uplp_vector_skin_orange.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval SMG.\nPurely <color=160,160,255>cosmetic</color>."
+L["uplp_vector_skin_orange.description"] = ARC9:GetPhrase("uplp_vector_skin_blk.description") or "Repainted lower receiver for the Serval GEN2.\nPurely <color=160,160,255>cosmetic</color>."

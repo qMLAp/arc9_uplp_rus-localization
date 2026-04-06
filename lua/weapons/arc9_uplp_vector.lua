@@ -66,12 +66,12 @@ SWEP.NoTPIKVMPos = true
 SWEP.WorldModelOffset = {
     Pos = Vector(-3.5, 3, -8),
     Ang = Angle(0, 0, 180),
-    TPIKPos = Vector(-12, 4, -5),
+    TPIKPos = Vector(-14, 4, -3),
     TPIKAng = Angle(-12, -0, 180),
     Scale = 1,
 
-    TPIKPosSightOffset = Vector(1, 2.5, -3),
-    TPIKPosReloadOffset = Vector(-3, 0, 0),
+    TPIKPosSightOffset = Vector(1, 1, -3),
+    TPIKPosReloadOffset = Vector(0, 0, 0),
     TPIKAngReloadOffset = Angle(0, 0, 0),
 }
 
@@ -150,8 +150,8 @@ SWEP.VisualRecoilSpringMagnitude = 0.44
 SWEP.VisualRecoilPositionBumpUp = .25
 
 SWEP.VisualRecoilMultHipFire = 1
-SWEP.VisualRecoilUpHipFire = 0.65
-SWEP.VisualRecoilSideHipFire = -0.1
+SWEP.VisualRecoilUpHipFire = -0.1
+SWEP.VisualRecoilSideHipFire = -0.11
 SWEP.VisualRecoilRollHipFire = 20
 SWEP.VisualRecoilPunchHipFire = 1.25
 SWEP.VisualRecoilDampingConstHipFire = 45
@@ -448,6 +448,13 @@ SWEP.Animations = {
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 10 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_2.ogg", t = 10 / 30, c = ca, v = 0.8 },
         },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.15, lhik = 0 },
+            { t = 0.4, lhik = 0 },
+            { t = 0.75, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
     },
     ["holster"] = {
         Source = "holster",
@@ -477,6 +484,13 @@ SWEP.Animations = {
             { s = pathUTC .. "raise.ogg", t = 2 / 30, c = ca, v = 0.8 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 20 / 30, c = ca, v = 0.8 },
             { s = pathUTC .. "cloth_2.ogg", t = 20 / 30, c = ca, v = 0.8 },
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.15, lhik = 0 },
+            { t = 0.4, lhik = 0 },
+            { t = 0.75, lhik = 1 },
+            { t = 1, lhik = 1 },
         },
     },
     ["holster_empty"] = {
@@ -548,9 +562,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
+            { t = 0.1, lhik = 0 },
             { t = 0.65, lhik = 0 },
-            { t = 0.9, lhik = 1 },
+            { t = 0.85, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -581,9 +595,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
+            { t = 0.1, lhik = 0 },
             { t = 0.7, lhik = 0 },
-            { t = 0.97, lhik = 1 },
+            { t = 0.9, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -613,8 +627,8 @@ SWEP.Animations = {
         IKTimeLine = {
             { t = 0, lhik = 1 },
             { t = 0.15, lhik = 0 },
-            { t = 0.62, lhik = 0 },
-            { t = 0.99, lhik = 1 },
+            { t = 0.7, lhik = 0 },
+            { t = 0.9, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -645,8 +659,8 @@ SWEP.Animations = {
         IKTimeLine = {
             { t = 0, lhik = 1 },
             { t = 0.15, lhik = 0 },
-            { t = 0.65, lhik = 0 },
-            { t = 0.9, lhik = 1 },
+            { t = 0.8, lhik = 0 },
+            { t = 0.95, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -674,9 +688,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.7, lhik = 0 },
-            { t = 0.9, lhik = 1 },
+            { t = 0.1, lhik = 0 },
+            { t = 0.67, lhik = 0 },
+            { t = 0.82, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -706,9 +720,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.75, lhik = 0 },
-            { t = 0.95, lhik = 1 },
+            { t = 0.1, lhik = 0 },
+            { t = 0.7, lhik = 0 },
+            { t = 0.9, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -731,8 +745,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.825, lhik = 0 },
+            { t = 0.05, lhik = 0 },
+            { t = 0.82, lhik = 0 },
+            { t = 0.92, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -750,8 +765,9 @@ SWEP.Animations = {
         },
         IKTimeLine = {
             { t = 0, lhik = 1 },
-            { t = 0.15, lhik = 0 },
-            { t = 0.825, lhik = 0 },
+            { t = 0.05, lhik = 0 },
+            { t = 0.82, lhik = 0 },
+            { t = 0.92, lhik = 1 },
             { t = 1, lhik = 1 },
         },
     },
@@ -787,12 +803,26 @@ SWEP.Animations = {
             { s = pathUTC .. "movement-rifle-02.ogg", t = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 5 / 30, c = ca, v = 0.8 },
         },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
     },
     ["firemode_2"] = {
         Source = "firemode_2",
         EventTable = {
             { s = pathUTC .. "movement-rifle-02.ogg", t = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 5 / 30, c = ca, v = 0.8 },
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
         },
     },
     ["firemode_3"] = {
@@ -801,12 +831,26 @@ SWEP.Animations = {
             { s = pathUTC .. "movement-rifle-02.ogg", t  = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 7 / 30, c = ca, v = 0.8 },
         },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
     },
     ["firemode_4"] = {
         Source = "firemode_4",
         EventTable = {
             { s = pathUTC .. "movement-rifle-02.ogg", t  = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 7 / 30, c = ca, v = 0.8 },
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
         },
     },
 
@@ -816,12 +860,26 @@ SWEP.Animations = {
             { s = pathUTC .. "movement-rifle-02.ogg", t = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 5 / 30, c = ca, v = 0.8 },
         },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
     },
     ["firemode_2_empty"] = {
         Source = "firemode_2_empty",
         EventTable = {
             { s = pathUTC .. "movement-rifle-02.ogg", t = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 5 / 30, c = ca, v = 0.8 },
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
         },
     },
     ["firemode_3_empty"] = {
@@ -830,12 +888,26 @@ SWEP.Animations = {
             { s = pathUTC .. "movement-rifle-02.ogg", t  = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 7 / 30, c = ca, v = 0.8 },
         },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
     },
     ["firemode_4_empty"] = {
         Source = "firemode_4_empty",
         EventTable = {
             { s = pathUTC .. "movement-rifle-02.ogg", t  = 0 / 30, c = ca, v = 0.2 },
             { s = ")uplp_urban_temp/ar15/selector-01.ogg", t = 7 / 30, c = ca, v = 0.8 },
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.08, lhik = 0 },
+            { t = 0.5, lhik = 0 },
+            { t = 0.8, lhik = 1 },
+            { t = 1, lhik = 1 },
         },
     },
 }
@@ -1018,7 +1090,7 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("uplp_category_charm"),
         Category = "charm",
         Bone = "body",
-        Pos = Vector(0.8, 1.25, -2.8),
+        Pos = Vector(0.8, -2.455, -0.98),
         Ang = Angle(90, 0, -90),
     },
     {
@@ -1031,3 +1103,14 @@ SWEP.Attachments = {
         CosmeticOnly = true
     },
 }
+
+
+SWEP.HookP_NameChange = function(self, name)
+    local att = self:GetElements()
+
+    if att["uplp_vector_mag_30"] or att["uplp_vector_mag_13"] then
+        name = ARC9:GetPhrase("uplp_weapon_vector_45acp")
+    end
+
+    return name
+end

@@ -3581,7 +3581,7 @@ local sr25brll = {
 
 -- L["uplp_vector_mag_13.printname"] = "13-Round .45 ACP"
 -- L["uplp_vector_mag_13.compactname"] = "13R .45"
--- L["uplp_vector_mag_13.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a shortened 13-round magazine.\n\nRestricted to <color=255,100,100>3-round burst</color>."
+-- L["uplp_vector_mag_13.description"] = "Rechambers the Serval SMG to .45 ACP, providing it more stopping power. Also provides it with a shortened 13-round magazine.\n\nRestricted to <color=255,100,100>2-round burst</color>."
 
 -- L["uplp_vector_mag_30.printname"] = "30-Round .45 ACP"
 -- L["uplp_vector_mag_30.compactname"] = "30R .45"
