@@ -515,4 +515,6 @@ ATT.RecoilRandomUpAdd = 0.25
 ATT.RecoilRandomSideAdd = 0.25
 ATT.RecoilPerShotMult = 1.5
 
+ATT.ShellScale = 1.25
+
 ARC9.LoadAttachment(ATT, "uplp_mp5_mag_10mm")

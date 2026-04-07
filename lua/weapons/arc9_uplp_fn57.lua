@@ -183,7 +183,8 @@ SWEP.AimDownSightsTime = 0.2
 SWEP.SprintToFireTime = 0.18
 
 -- Shooting and Firemodes
-SWEP.RPM = 440 -- How fast gun shoot
+-- SWEP.RPM = 440 -- How fast gun shoot
+SWEP.RPM = 500 -- How fast gun shoot
 SWEP.HeatCapacity = 50 * 1.5 -- For suppresors; how many shots for full heat With big silencer (Small silencers will make this number lower down to 70%)
 
 SWEP.Num = 1 -- How many bullets shot at once
@@ -191,6 +192,11 @@ SWEP.Num = 1 -- How many bullets shot at once
 SWEP.Firemodes = {
     { Mode = 1 }, -- Semi
 }
+
+SWEP.TriggerDelay = true -- Add a delay before the weapon fires.
+SWEP.TriggerDelayTime = 0.02 -- Time until weapon fires.
+SWEP.TriggerDelayRepeat = false -- Whether to do it for every shot on automatics.
+SWEP.TriggerDelayCancellable = false
 
 SWEP.SwayMultSights = 1.25
 
